@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Oct 17 10:02:29 2012
+        MODULE ZSTATN__genmod
+          INTERFACE 
+            SUBROUTINE ZSTATN
+            END SUBROUTINE ZSTATN
+          END INTERFACE 
+        END MODULE ZSTATN__genmod

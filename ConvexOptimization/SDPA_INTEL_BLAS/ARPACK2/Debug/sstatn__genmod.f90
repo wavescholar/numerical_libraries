@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Oct 17 10:02:30 2012
+        MODULE SSTATN__genmod
+          INTERFACE 
+            SUBROUTINE SSTATN
+            END SUBROUTINE SSTATN
+          END INTERFACE 
+        END MODULE SSTATN__genmod

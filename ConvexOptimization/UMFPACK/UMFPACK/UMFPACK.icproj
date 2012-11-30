@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="UMFPACK"
+	ProjectGUID="{C533E363-4DA9-46E1-9F4C-1204F2228809}"
+	VCNestedProjectGUID="{30B5D694-7637-42C3-AC55-4B960450A442}"
+	VCNestedProjectFileName="UMFPACK.vcproj"
+	>
+	<Configurations>
+		<Configuration
+			Name="Release|x64"
+			>
+			<Tool
+				Name="CppCmplrTool"
+				InterproceduralOptimization="1"
+				Parallelization="true"
+			/>
+		</Configuration>
+	</Configurations>
+	<Files/>
+</VisualStudioProject>
