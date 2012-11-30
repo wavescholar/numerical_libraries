@@ -1,0 +1,1008 @@
+﻿Build started 10/17/2012 9:57:26 AM.
+     1>Project "K:\KL\Packages\MatLib\Matlib\Matlib.vcxproj" on node 2 (rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "K:\KL\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Matlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\_demo_autogk_singular.cpp ..\_demo_autogk_smooth.cpp ..\_demo_lsfit_linear.cpp ..\_demo_lsfit_nonlinear.cpp ..\_demo_lsfit_nonlinear2.cpp ..\_demo_minasa_1.cpp ..\_demo_minasa_2.cpp ..\_demo_mincg_1.cpp ..\_demo_mincg_2.cpp ..\_demo_minlbfgs_1.cpp ..\_demo_minlbfgs_2.cpp ..\_demo_minlm_fgh.cpp ..\_demo_minlm_fgj.cpp ..\_demo_minlm_fj.cpp ..\_demo_minlm_fj2.cpp ..\_demo_mlp_process.cpp ..\_demo_mlp_process_cls.cpp ..\_demo_mlp_randomize.cpp ..\_demo_mlp_serialize.cpp ..\_demo_ode_example1.cpp ..\_demo_ode_example2.cpp ..\_demo_polint_cheb1.cpp ..\_demo_polint_cheb2.cpp ..\_demo_polint_eqdist.cpp ..\_demo_polint_fit.cpp ..\_demo_polint_gen.cpp ..\_demo_ratint_fit.cpp ..\_demo_rcond_1.cpp ..\_demo_spline1d_calc.cpp ..\_demo_spline1d_cubic.cpp ..\_demo_spline1d_fit.cpp ..\_demo_spline1d_fitc.cpp ..\_demo_spline1d_hermite.cpp ..\_demo_spline1d_linear.cpp ..\_run_llstestunit.cpp ..\_run_short_llstestunit.cpp ..\_run_short_testablasunit.cpp ..\_run_short_testasa.cpp ..\_run_short_testautogk.cpp ..\_run_short_testbdssunit.cpp ..\_run_short_testbdsvdunit.cpp ..\_run_short_testblasunit.cpp ..\_run_short_testchebyshevunit.cpp ..\_run_short_testconvunit.cpp ..\_run_short_testcorrunit.cpp ..\_run_short_testcreflunit.cpp ..\_run_short_testdensesolverunit.cpp ..\_run_short_testevdunit.cpp ..\_run_short_testfftunit.cpp ..\_run_short_testfhtunit.cpp ..\_run_short_testforestunit.cpp ..\_run_short_testgammaunit.cpp ..\_run_short_testgkq.cpp ..\_run_short_testgq.cpp ..\_run_short_testhblasunit.cpp ..\_run_short_testhermiteunit.cpp ..\_run_short_testhqrndunit.cpp ..\_run_short_testidwunit.cpp ..\_run_short_testinverseupdateunit.cpp ..\_run_short_testinvldltunit.cpp ..\_run_short_testkmeansunit.cpp ..\_run_short_testlaguerreunit.cpp ..\_run_short_testldaunit.cpp ..\_run_short_testldltunit.cpp ..\_run_short_testlegendreunit.cpp ..\_run_short_testlinminunit.cpp ..\_run_short_testmatgenunit.cpp ..\_run_short_testmatinvunit.cpp ..\_run_short_testmincgunit.cpp ..\_run_short_testminlbfgsunit.cpp ..\_run_short_testminlmunit.cpp ..\_run_short_testmlpeunit.cpp ..\_run_short_testmlpunit.cpp ..\_run_short_testnearestneighborunit.cpp ..\_run_short_testodesolverunit.cpp ..\_run_short_testortfacunit.cpp ..\_run_short_testpcaunit.cpp ..\_run_short_testpolintunit.cpp ..\_run_short_testratinterpolation.cpp ..\_run_short_testrcondldltunit.cpp ..\_run_short_testrcondunit.cpp ..\_run_short_testreflectionsunit.cpp ..\_run_short_testregressunit.cpp ..\_run_short_testsafesolveunit.cpp ..\_run_short_testsblasunit.cpp ..\_run_short_testschurunit.cpp ..\_run_short_testspdgevdunit.cpp ..\_run_short_testspline1dunit.cpp ..\_run_short_testspline2dunit.cpp ..\_run_short_testsstunit.cpp ..\_run_short_testsvdunit.cpp ..\_run_short_testtrfacunit.cpp ..\_run_short_testtsortunit.cpp ..\_run_short_testxblasunit.cpp ..\_run_silent_llstestunit.cpp ..\_run_silent_testablasunit.cpp ..\_run_silent_testasa.cpp ..\_run_silent_testautogk.cpp ..\_run_silent_testbdssunit.cpp ..\_run_silent_testbdsvdunit.cpp ..\_run_silent_testblasunit.cpp ..\_run_silent_testchebyshevunit.cpp ..\_run_silent_testconvunit.cpp ..\_run_silent_testcorrunit.cpp ..\_run_silent_testcreflunit.cpp ..\_run_silent_testdensesolverunit.cpp ..\_run_silent_testevdunit.cpp ..\_run_silent_testfftunit.cpp ..\_run_silent_testfhtunit.cpp ..\_run_silent_testforestunit.cpp ..\_run_silent_testgammaunit.cpp ..\_run_silent_testgkq.cpp ..\_run_silent_testgq.cpp ..\_run_silent_testhblasunit.cpp ..\_run_silent_testhermiteunit.cpp ..\_run_silent_testhqrndunit.cpp ..\_run_silent_testidwunit.cpp ..\_run_silent_testinverseupdateunit.cpp ..\_run_silent_testinvldltunit.cpp ..\_run_silent_testkmeansunit.cpp ..\_run_silent_testlaguerreunit.cpp ..\_run_silent_testldaunit.cpp ..\_run_silent_testldltunit.cpp ..\_run_silent_testlegendreunit.cpp ..\_run_silent_testlinminunit.cpp ..\_run_silent_testmatgenunit.cpp ..\_run_silent_testmatinvunit.cpp ..\_run_silent_testmincgunit.cpp ..\_run_silent_testminlbfgsunit.cpp ..\_run_silent_testminlmunit.cpp ..\_run_silent_testmlpeunit.cpp ..\_run_silent_testmlpunit.cpp ..\_run_silent_testnearestneighborunit.cpp ..\_run_silent_testodesolverunit.cpp ..\_run_silent_testortfacunit.cpp ..\_run_silent_testpcaunit.cpp ..\_run_silent_testpolintunit.cpp ..\_run_silent_testratinterpolation.cpp ..\_run_silent_testrcondldltunit.cpp ..\_run_silent_testrcondunit.cpp ..\_run_silent_testreflectionsunit.cpp ..\_run_silent_testregressunit.cpp ..\_run_silent_testsafesolveunit.cpp ..\_run_silent_testsblasunit.cpp ..\_run_silent_testschurunit.cpp ..\_run_silent_testspdgevdunit.cpp ..\_run_silent_testspline1dunit.cpp ..\_run_silent_testspline2dunit.cpp ..\_run_silent_testsstunit.cpp ..\_run_silent_testsvdunit.cpp ..\_run_silent_testtrfacunit.cpp ..\_run_silent_testtsortunit.cpp ..\_run_silent_testxblasunit.cpp ..\_run_testablasunit.cpp ..\_run_testasa.cpp ..\_run_testautogk.cpp ..\_run_testbdssunit.cpp ..\_run_testbdsvdunit.cpp ..\_run_testblasunit.cpp ..\_run_testchebyshevunit.cpp ..\_run_testconvunit.cpp ..\_run_testcorrunit.cpp ..\_run_testcreflunit.cpp ..\_run_testdensesolverunit.cpp ..\_run_testevdunit.cpp ..\_run_testfftunit.cpp ..\_run_testfhtunit.cpp ..\_run_testforestunit.cpp ..\_run_testgammaunit.cpp ..\_run_testgkq.cpp ..\_run_testgq.cpp ..\_run_testhblasunit.cpp ..\_run_testhermiteunit.cpp ..\_run_testhqrndunit.cpp ..\_run_testidwunit.cpp ..\_run_testinverseupdateunit.cpp ..\_run_testinvldltunit.cpp ..\_run_testkmeansunit.cpp ..\_run_testlaguerreunit.cpp ..\_run_testldaunit.cpp ..\_run_testldltunit.cpp ..\_run_testlegendreunit.cpp ..\_run_testlinminunit.cpp ..\_run_testmatgenunit.cpp ..\_run_testmatinvunit.cpp ..\_run_testmincgunit.cpp ..\_run_testminlbfgsunit.cpp ..\_run_testminlmunit.cpp ..\_run_testmlpeunit.cpp ..\_run_testmlpunit.cpp ..\_run_testnearestneighborunit.cpp ..\_run_testodesolverunit.cpp ..\_run_testortfacunit.cpp ..\_run_testpcaunit.cpp ..\_run_testpolintunit.cpp ..\_run_testratinterpolation.cpp ..\_run_testrcondldltunit.cpp ..\_run_testrcondunit.cpp ..\_run_testreflectionsunit.cpp ..\_run_testregressunit.cpp ..\_run_testsafesolveunit.cpp ..\_run_testsblasunit.cpp ..\_run_testschurunit.cpp ..\_run_testspdgevdunit.cpp ..\_run_testspline1dunit.cpp ..\_run_testspline2dunit.cpp ..\_run_testsstunit.cpp ..\_run_testsvdunit.cpp ..\_run_testtrfacunit.cpp ..\_run_testtsortunit.cpp ..\_run_testxblasunit.cpp ..\ablas.cpp ..\ablasf.cpp ..\airyf.cpp ..\ap.cpp ..\autogk.cpp ..\bdss.cpp ..\bdsvd.cpp ..\bessel.cpp ..\betaf.cpp ..\binomialdistr.cpp ..\blas.cpp ..\chebyshev.cpp ..\chisquaredistr.cpp ..\conv.cpp ..\corr.cpp ..\correlation.cpp ..\correlationtests.cpp ..\creflections.cpp ..\dawson.cpp ..\densesolver.cpp ..\descriptivestatistics.cpp ..\dforest.cpp ..\elliptic.cpp ..\estnorm.cpp ..\evd.cpp ..\expintegrals.cpp ..\fdistr.cpp ..\fft.cpp ..\fht.cpp ..\fresnel.cpp ..\ftbase.cpp ..\gammafunc.cpp ..\gkq.cpp ..\gq.cpp ..\hblas.cpp ..\hermite.cpp ..\hqrnd.cpp ..\hsschur.cpp ..\ialglib.cpp ..\ibetaf.cpp ..\idwint.cpp ..\igammaf.cpp ..\inverseupdate.cpp ..\jacobianelliptic.cpp ..\jarquebera.cpp ..\kmeans.cpp ..\laguerre.cpp ..\lda.cpp ..\ldlt.cpp ..\legendre.cpp ..\linmin.cpp ..\linreg.cpp ..\llstestunit.cpp ..\logit.cpp ..\lsfit.cpp ..\mannwhitneyu.cpp ..\matdet.cpp ..\matgen.cpp ..\matinv.cpp ..\minasa.cpp ..\mincg.cpp ..\minlbfgs.cpp ..\minlm.cpp ..\mlpbase.cpp ..\mlpe.cpp ..\mlptrain.cpp ..\nearestneighbor.cpp ..\nearunityunit.cpp ..\normaldistr.cpp ..\odesolver.cpp ..\ortfac.cpp ..\pca.cpp ..\poissondistr.cpp ..\polint.cpp ..\psif.cpp ..\ratint.cpp ..\ratinterpolation.cpp ..\rcond.cpp ..\reflections.cpp ..\rotations.cpp ..\safesolve.cpp ..\sblas.cpp ..\schur.cpp ..\sdet.cpp ..\sinverse.cpp ..\spdgevd.cpp ..\spline1d.cpp ..\spline2d.cpp ..\spline3.cpp ..\srcond.cpp ..\ssolve.cpp ..\stest.cpp ..\studenttdistr.cpp ..\studentttests.cpp ..\svd.cpp ..\taskgen.cpp ..\testablasunit.cpp ..\testasa.cpp ..\testautogk.cpp ..\testbdssunit.cpp ..\testbdsvdunit.cpp ..\testblasunit.cpp ..\testchebyshevunit.cpp ..\testconvunit.cpp ..\testcorrunit.cpp ..\testcreflunit.cpp ..\testdensesolverunit.cpp ..\testevdunit.cpp ..\testfftunit.cpp ..\testfhtunit.cpp ..\testforestunit.cpp ..\testgammaunit.cpp ..\testgkq.cpp ..\testgq.cpp ..\testhblasunit.cpp ..\testhermiteunit.cpp ..\testhqrndunit.cpp ..\testidwunit.cpp ..\testinverseupdateunit.cpp ..\testinvldltunit.cpp ..\testkmeansunit.cpp ..\testlaguerreunit.cpp ..\testldaunit.cpp ..\testldltunit.cpp ..\testlegendreunit.cpp ..\testlinminunit.cpp ..\testmatgenunit.cpp ..\testmatinvunit.cpp ..\testmincgunit.cpp ..\testminlbfgsunit.cpp ..\testminlmunit.cpp ..\testmlpeunit.cpp ..\testmlpunit.cpp ..\testnearestneighborunit.cpp ..\testodesolverunit.cpp ..\testortfacunit.cpp ..\testpcaunit.cpp ..\testpolintunit.cpp ..\testratinterpolation.cpp ..\testrcondldltunit.cpp ..\testrcondunit.cpp ..\testreflectionsunit.cpp ..\testregressunit.cpp ..\testsafesolveunit.cpp ..\testsblasunit.cpp ..\testschurunit.cpp ..\testspdgevdunit.cpp ..\testspline1dunit.cpp ..\testspline2dunit.cpp ..\testsstunit.cpp ..\testsvdunit.cpp ..\testtrfacunit.cpp ..\testtsortunit.cpp ..\testxblasunit.cpp ..\trfac.cpp ..\trigintegrals.cpp ..\trlinsolve.cpp ..\tsort.cpp ..\variancetests.cpp ..\wsr.cpp ..\xblas.cpp
+         _demo_autogk_singular.cpp
+         _demo_autogk_smooth.cpp
+         _demo_lsfit_linear.cpp
+         _demo_lsfit_nonlinear.cpp
+         _demo_lsfit_nonlinear2.cpp
+         _demo_minasa_1.cpp
+         _demo_minasa_2.cpp
+         _demo_mincg_1.cpp
+         _demo_mincg_2.cpp
+         _demo_minlbfgs_1.cpp
+         _demo_minlbfgs_2.cpp
+         _demo_minlm_fgh.cpp
+         _demo_minlm_fgj.cpp
+         _demo_minlm_fj.cpp
+         _demo_minlm_fj2.cpp
+         _demo_mlp_process.cpp
+         _demo_mlp_process_cls.cpp
+         _demo_mlp_randomize.cpp
+         _demo_mlp_serialize.cpp
+         _demo_ode_example1.cpp
+         Generating Code...
+         Compiling...
+         _demo_ode_example2.cpp
+         _demo_polint_cheb1.cpp
+         _demo_polint_cheb2.cpp
+         _demo_polint_eqdist.cpp
+         _demo_polint_fit.cpp
+         _demo_polint_gen.cpp
+         _demo_ratint_fit.cpp
+         _demo_rcond_1.cpp
+         _demo_spline1d_calc.cpp
+         _demo_spline1d_cubic.cpp
+         _demo_spline1d_fit.cpp
+         _demo_spline1d_fitc.cpp
+         _demo_spline1d_hermite.cpp
+         _demo_spline1d_linear.cpp
+         _run_llstestunit.cpp
+         _run_short_llstestunit.cpp
+         _run_short_testablasunit.cpp
+         _run_short_testasa.cpp
+         _run_short_testautogk.cpp
+         _run_short_testbdssunit.cpp
+         Generating Code...
+         Compiling...
+         _run_short_testbdsvdunit.cpp
+         _run_short_testblasunit.cpp
+         _run_short_testchebyshevunit.cpp
+         _run_short_testconvunit.cpp
+         _run_short_testcorrunit.cpp
+         _run_short_testcreflunit.cpp
+         _run_short_testdensesolverunit.cpp
+         _run_short_testevdunit.cpp
+         _run_short_testfftunit.cpp
+         _run_short_testfhtunit.cpp
+         _run_short_testforestunit.cpp
+         _run_short_testgammaunit.cpp
+         _run_short_testgkq.cpp
+         _run_short_testgq.cpp
+         _run_short_testhblasunit.cpp
+         _run_short_testhermiteunit.cpp
+         _run_short_testhqrndunit.cpp
+         _run_short_testidwunit.cpp
+         _run_short_testinverseupdateunit.cpp
+         _run_short_testinvldltunit.cpp
+         Generating Code...
+         Compiling...
+         _run_short_testkmeansunit.cpp
+         _run_short_testlaguerreunit.cpp
+         _run_short_testldaunit.cpp
+         _run_short_testldltunit.cpp
+         _run_short_testlegendreunit.cpp
+         _run_short_testlinminunit.cpp
+         _run_short_testmatgenunit.cpp
+         _run_short_testmatinvunit.cpp
+         _run_short_testmincgunit.cpp
+         _run_short_testminlbfgsunit.cpp
+         _run_short_testminlmunit.cpp
+         _run_short_testmlpeunit.cpp
+         _run_short_testmlpunit.cpp
+         _run_short_testnearestneighborunit.cpp
+         _run_short_testodesolverunit.cpp
+         _run_short_testortfacunit.cpp
+         _run_short_testpcaunit.cpp
+         _run_short_testpolintunit.cpp
+         _run_short_testratinterpolation.cpp
+         _run_short_testrcondldltunit.cpp
+         Generating Code...
+         Compiling...
+         _run_short_testrcondunit.cpp
+         _run_short_testreflectionsunit.cpp
+         _run_short_testregressunit.cpp
+         _run_short_testsafesolveunit.cpp
+         _run_short_testsblasunit.cpp
+         _run_short_testschurunit.cpp
+         _run_short_testspdgevdunit.cpp
+         _run_short_testspline1dunit.cpp
+         _run_short_testspline2dunit.cpp
+         _run_short_testsstunit.cpp
+         _run_short_testsvdunit.cpp
+         _run_short_testtrfacunit.cpp
+         _run_short_testtsortunit.cpp
+         _run_short_testxblasunit.cpp
+         _run_silent_llstestunit.cpp
+         _run_silent_testablasunit.cpp
+         _run_silent_testasa.cpp
+         _run_silent_testautogk.cpp
+         _run_silent_testbdssunit.cpp
+         _run_silent_testbdsvdunit.cpp
+         Generating Code...
+         Compiling...
+         _run_silent_testblasunit.cpp
+         _run_silent_testchebyshevunit.cpp
+         _run_silent_testconvunit.cpp
+         _run_silent_testcorrunit.cpp
+         _run_silent_testcreflunit.cpp
+         _run_silent_testdensesolverunit.cpp
+         _run_silent_testevdunit.cpp
+         _run_silent_testfftunit.cpp
+         _run_silent_testfhtunit.cpp
+         _run_silent_testforestunit.cpp
+         _run_silent_testgammaunit.cpp
+         _run_silent_testgkq.cpp
+         _run_silent_testgq.cpp
+         _run_silent_testhblasunit.cpp
+         _run_silent_testhermiteunit.cpp
+         _run_silent_testhqrndunit.cpp
+         _run_silent_testidwunit.cpp
+         _run_silent_testinverseupdateunit.cpp
+         _run_silent_testinvldltunit.cpp
+         _run_silent_testkmeansunit.cpp
+         Generating Code...
+         Compiling...
+         _run_silent_testlaguerreunit.cpp
+         _run_silent_testldaunit.cpp
+         _run_silent_testldltunit.cpp
+         _run_silent_testlegendreunit.cpp
+         _run_silent_testlinminunit.cpp
+         _run_silent_testmatgenunit.cpp
+         _run_silent_testmatinvunit.cpp
+         _run_silent_testmincgunit.cpp
+         _run_silent_testminlbfgsunit.cpp
+         _run_silent_testminlmunit.cpp
+         _run_silent_testmlpeunit.cpp
+         _run_silent_testmlpunit.cpp
+         _run_silent_testnearestneighborunit.cpp
+         _run_silent_testodesolverunit.cpp
+         _run_silent_testortfacunit.cpp
+         _run_silent_testpcaunit.cpp
+         _run_silent_testpolintunit.cpp
+         _run_silent_testratinterpolation.cpp
+         _run_silent_testrcondldltunit.cpp
+         _run_silent_testrcondunit.cpp
+         Generating Code...
+         Compiling...
+         _run_silent_testreflectionsunit.cpp
+         _run_silent_testregressunit.cpp
+         _run_silent_testsafesolveunit.cpp
+         _run_silent_testsblasunit.cpp
+         _run_silent_testschurunit.cpp
+         _run_silent_testspdgevdunit.cpp
+         _run_silent_testspline1dunit.cpp
+         _run_silent_testspline2dunit.cpp
+         _run_silent_testsstunit.cpp
+         _run_silent_testsvdunit.cpp
+         _run_silent_testtrfacunit.cpp
+         _run_silent_testtsortunit.cpp
+         _run_silent_testxblasunit.cpp
+         _run_testablasunit.cpp
+         _run_testasa.cpp
+         _run_testautogk.cpp
+         _run_testbdssunit.cpp
+         _run_testbdsvdunit.cpp
+         _run_testblasunit.cpp
+         _run_testchebyshevunit.cpp
+         Generating Code...
+         Compiling...
+         _run_testconvunit.cpp
+         _run_testcorrunit.cpp
+         _run_testcreflunit.cpp
+         _run_testdensesolverunit.cpp
+         _run_testevdunit.cpp
+         _run_testfftunit.cpp
+         _run_testfhtunit.cpp
+         _run_testforestunit.cpp
+         _run_testgammaunit.cpp
+         _run_testgkq.cpp
+         _run_testgq.cpp
+         _run_testhblasunit.cpp
+         _run_testhermiteunit.cpp
+         _run_testhqrndunit.cpp
+         _run_testidwunit.cpp
+         _run_testinverseupdateunit.cpp
+         _run_testinvldltunit.cpp
+         _run_testkmeansunit.cpp
+         _run_testlaguerreunit.cpp
+         _run_testldaunit.cpp
+         Generating Code...
+         Compiling...
+         _run_testldltunit.cpp
+         _run_testlegendreunit.cpp
+         _run_testlinminunit.cpp
+         _run_testmatgenunit.cpp
+         _run_testmatinvunit.cpp
+         _run_testmincgunit.cpp
+         _run_testminlbfgsunit.cpp
+         _run_testminlmunit.cpp
+         _run_testmlpeunit.cpp
+         _run_testmlpunit.cpp
+         _run_testnearestneighborunit.cpp
+         _run_testodesolverunit.cpp
+         _run_testortfacunit.cpp
+         _run_testpcaunit.cpp
+         _run_testpolintunit.cpp
+         _run_testratinterpolation.cpp
+         _run_testrcondldltunit.cpp
+         _run_testrcondunit.cpp
+         _run_testreflectionsunit.cpp
+         _run_testregressunit.cpp
+         Generating Code...
+         Compiling...
+         _run_testsafesolveunit.cpp
+         _run_testsblasunit.cpp
+         _run_testschurunit.cpp
+         _run_testspdgevdunit.cpp
+         _run_testspline1dunit.cpp
+         _run_testspline2dunit.cpp
+         _run_testsstunit.cpp
+         _run_testsvdunit.cpp
+         _run_testtrfacunit.cpp
+         _run_testtsortunit.cpp
+         _run_testxblasunit.cpp
+         ablas.cpp
+         ablasf.cpp
+         airyf.cpp
+         ap.cpp
+         autogk.cpp
+         bdss.cpp
+         bdsvd.cpp
+         bessel.cpp
+         betaf.cpp
+         Generating Code...
+         Compiling...
+         binomialdistr.cpp
+         blas.cpp
+         chebyshev.cpp
+         chisquaredistr.cpp
+         conv.cpp
+         corr.cpp
+         correlation.cpp
+         correlationtests.cpp
+         creflections.cpp
+         dawson.cpp
+         densesolver.cpp
+         descriptivestatistics.cpp
+         dforest.cpp
+         elliptic.cpp
+         estnorm.cpp
+         evd.cpp
+         expintegrals.cpp
+         fdistr.cpp
+         fft.cpp
+         fht.cpp
+         Generating Code...
+         Compiling...
+         fresnel.cpp
+         ftbase.cpp
+         gammafunc.cpp
+         gkq.cpp
+         gq.cpp
+         hblas.cpp
+         hermite.cpp
+         hqrnd.cpp
+         hsschur.cpp
+         ialglib.cpp
+         ibetaf.cpp
+         idwint.cpp
+         igammaf.cpp
+         inverseupdate.cpp
+         jacobianelliptic.cpp
+         jarquebera.cpp
+         kmeans.cpp
+         laguerre.cpp
+         lda.cpp
+         ldlt.cpp
+         Generating Code...
+         Compiling...
+         legendre.cpp
+         linmin.cpp
+         linreg.cpp
+         llstestunit.cpp
+         logit.cpp
+         lsfit.cpp
+         mannwhitneyu.cpp
+         matdet.cpp
+         matgen.cpp
+         matinv.cpp
+         minasa.cpp
+         mincg.cpp
+         minlbfgs.cpp
+         minlm.cpp
+         mlpbase.cpp
+         mlpe.cpp
+         mlptrain.cpp
+         nearestneighbor.cpp
+         nearunityunit.cpp
+         normaldistr.cpp
+         Generating Code...
+         Compiling...
+         odesolver.cpp
+         ortfac.cpp
+         pca.cpp
+         poissondistr.cpp
+         polint.cpp
+         psif.cpp
+         ratint.cpp
+         ratinterpolation.cpp
+         rcond.cpp
+         reflections.cpp
+         rotations.cpp
+         safesolve.cpp
+         sblas.cpp
+         schur.cpp
+         sdet.cpp
+         sinverse.cpp
+         spdgevd.cpp
+         spline1d.cpp
+         spline2d.cpp
+         spline3.cpp
+         Generating Code...
+         Compiling...
+         srcond.cpp
+         ssolve.cpp
+         stest.cpp
+         studenttdistr.cpp
+         studentttests.cpp
+         svd.cpp
+         taskgen.cpp
+         testablasunit.cpp
+         testasa.cpp
+         testautogk.cpp
+         testbdssunit.cpp
+         testbdsvdunit.cpp
+         testblasunit.cpp
+         testchebyshevunit.cpp
+         testconvunit.cpp
+         testcorrunit.cpp
+         testcreflunit.cpp
+         testdensesolverunit.cpp
+         testevdunit.cpp
+         testfftunit.cpp
+         Generating Code...
+         Compiling...
+         testfhtunit.cpp
+         testforestunit.cpp
+         testgammaunit.cpp
+         testgkq.cpp
+         testgq.cpp
+         testhblasunit.cpp
+         testhermiteunit.cpp
+         testhqrndunit.cpp
+         testidwunit.cpp
+         testinverseupdateunit.cpp
+         testinvldltunit.cpp
+         testkmeansunit.cpp
+         testlaguerreunit.cpp
+         testldaunit.cpp
+         testldltunit.cpp
+         testlegendreunit.cpp
+         testlinminunit.cpp
+         testmatgenunit.cpp
+         testmatinvunit.cpp
+         testmincgunit.cpp
+         Generating Code...
+     1>k:\kl\packages\matlib\testkmeansunit.cpp(287): warning C4700: uninitialized local variable 'result' used
+         Compiling...
+         testminlbfgsunit.cpp
+         testminlmunit.cpp
+         testmlpeunit.cpp
+         testmlpunit.cpp
+         testnearestneighborunit.cpp
+         testodesolverunit.cpp
+         testortfacunit.cpp
+         testpcaunit.cpp
+         testpolintunit.cpp
+         testratinterpolation.cpp
+         testrcondldltunit.cpp
+         testrcondunit.cpp
+         testreflectionsunit.cpp
+         testregressunit.cpp
+         testsafesolveunit.cpp
+         testsblasunit.cpp
+         testschurunit.cpp
+         testspdgevdunit.cpp
+         testspline1dunit.cpp
+         testspline2dunit.cpp
+         Generating Code...
+     1>k:\kl\packages\matlib\testregressunit.cpp(698): warning C4700: uninitialized local variable 'result' used
+         Compiling...
+         testsstunit.cpp
+         testsvdunit.cpp
+         testtrfacunit.cpp
+         testtsortunit.cpp
+         testxblasunit.cpp
+         trfac.cpp
+         trigintegrals.cpp
+         trlinsolve.cpp
+         tsort.cpp
+         variancetests.cpp
+         wsr.cpp
+         xblas.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\KL\Debug\Matlib.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Matlib.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"K:\KL\Debug\Matlib.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\KL\Debug\Matlib.lib" /MACHINE:X86 Debug\_demo_autogk_singular.obj
+         Debug\_demo_autogk_smooth.obj
+         Debug\_demo_lsfit_linear.obj
+         Debug\_demo_lsfit_nonlinear.obj
+         Debug\_demo_lsfit_nonlinear2.obj
+         Debug\_demo_minasa_1.obj
+         Debug\_demo_minasa_2.obj
+         Debug\_demo_mincg_1.obj
+         Debug\_demo_mincg_2.obj
+         Debug\_demo_minlbfgs_1.obj
+         Debug\_demo_minlbfgs_2.obj
+         Debug\_demo_minlm_fgh.obj
+         Debug\_demo_minlm_fgj.obj
+         Debug\_demo_minlm_fj.obj
+         Debug\_demo_minlm_fj2.obj
+         Debug\_demo_mlp_process.obj
+         Debug\_demo_mlp_process_cls.obj
+         Debug\_demo_mlp_randomize.obj
+         Debug\_demo_mlp_serialize.obj
+         Debug\_demo_ode_example1.obj
+         Debug\_demo_ode_example2.obj
+         Debug\_demo_polint_cheb1.obj
+         Debug\_demo_polint_cheb2.obj
+         Debug\_demo_polint_eqdist.obj
+         Debug\_demo_polint_fit.obj
+         Debug\_demo_polint_gen.obj
+         Debug\_demo_ratint_fit.obj
+         Debug\_demo_rcond_1.obj
+         Debug\_demo_spline1d_calc.obj
+         Debug\_demo_spline1d_cubic.obj
+         Debug\_demo_spline1d_fit.obj
+         Debug\_demo_spline1d_fitc.obj
+         Debug\_demo_spline1d_hermite.obj
+         Debug\_demo_spline1d_linear.obj
+         Debug\_run_llstestunit.obj
+         Debug\_run_short_llstestunit.obj
+         Debug\_run_short_testablasunit.obj
+         Debug\_run_short_testasa.obj
+         Debug\_run_short_testautogk.obj
+         Debug\_run_short_testbdssunit.obj
+         Debug\_run_short_testbdsvdunit.obj
+         Debug\_run_short_testblasunit.obj
+         Debug\_run_short_testchebyshevunit.obj
+         Debug\_run_short_testconvunit.obj
+         Debug\_run_short_testcorrunit.obj
+         Debug\_run_short_testcreflunit.obj
+         Debug\_run_short_testdensesolverunit.obj
+         Debug\_run_short_testevdunit.obj
+         Debug\_run_short_testfftunit.obj
+         Debug\_run_short_testfhtunit.obj
+         Debug\_run_short_testforestunit.obj
+         Debug\_run_short_testgammaunit.obj
+         Debug\_run_short_testgkq.obj
+         Debug\_run_short_testgq.obj
+         Debug\_run_short_testhblasunit.obj
+         Debug\_run_short_testhermiteunit.obj
+         Debug\_run_short_testhqrndunit.obj
+         Debug\_run_short_testidwunit.obj
+         Debug\_run_short_testinverseupdateunit.obj
+         Debug\_run_short_testinvldltunit.obj
+         Debug\_run_short_testkmeansunit.obj
+         Debug\_run_short_testlaguerreunit.obj
+         Debug\_run_short_testldaunit.obj
+         Debug\_run_short_testldltunit.obj
+         Debug\_run_short_testlegendreunit.obj
+         Debug\_run_short_testlinminunit.obj
+         Debug\_run_short_testmatgenunit.obj
+         Debug\_run_short_testmatinvunit.obj
+         Debug\_run_short_testmincgunit.obj
+         Debug\_run_short_testminlbfgsunit.obj
+         Debug\_run_short_testminlmunit.obj
+         Debug\_run_short_testmlpeunit.obj
+         Debug\_run_short_testmlpunit.obj
+         Debug\_run_short_testnearestneighborunit.obj
+         Debug\_run_short_testodesolverunit.obj
+         Debug\_run_short_testortfacunit.obj
+         Debug\_run_short_testpcaunit.obj
+         Debug\_run_short_testpolintunit.obj
+         Debug\_run_short_testratinterpolation.obj
+         Debug\_run_short_testrcondldltunit.obj
+         Debug\_run_short_testrcondunit.obj
+         Debug\_run_short_testreflectionsunit.obj
+         Debug\_run_short_testregressunit.obj
+         Debug\_run_short_testsafesolveunit.obj
+         Debug\_run_short_testsblasunit.obj
+         Debug\_run_short_testschurunit.obj
+         Debug\_run_short_testspdgevdunit.obj
+         Debug\_run_short_testspline1dunit.obj
+         Debug\_run_short_testspline2dunit.obj
+         Debug\_run_short_testsstunit.obj
+         Debug\_run_short_testsvdunit.obj
+         Debug\_run_short_testtrfacunit.obj
+         Debug\_run_short_testtsortunit.obj
+         Debug\_run_short_testxblasunit.obj
+         Debug\_run_silent_llstestunit.obj
+         Debug\_run_silent_testablasunit.obj
+         Debug\_run_silent_testasa.obj
+         Debug\_run_silent_testautogk.obj
+         Debug\_run_silent_testbdssunit.obj
+         Debug\_run_silent_testbdsvdunit.obj
+         Debug\_run_silent_testblasunit.obj
+         Debug\_run_silent_testchebyshevunit.obj
+         Debug\_run_silent_testconvunit.obj
+         Debug\_run_silent_testcorrunit.obj
+         Debug\_run_silent_testcreflunit.obj
+         Debug\_run_silent_testdensesolverunit.obj
+         Debug\_run_silent_testevdunit.obj
+         Debug\_run_silent_testfftunit.obj
+         Debug\_run_silent_testfhtunit.obj
+         Debug\_run_silent_testforestunit.obj
+         Debug\_run_silent_testgammaunit.obj
+         Debug\_run_silent_testgkq.obj
+         Debug\_run_silent_testgq.obj
+         Debug\_run_silent_testhblasunit.obj
+         Debug\_run_silent_testhermiteunit.obj
+         Debug\_run_silent_testhqrndunit.obj
+         Debug\_run_silent_testidwunit.obj
+         Debug\_run_silent_testinverseupdateunit.obj
+         Debug\_run_silent_testinvldltunit.obj
+         Debug\_run_silent_testkmeansunit.obj
+         Debug\_run_silent_testlaguerreunit.obj
+         Debug\_run_silent_testldaunit.obj
+         Debug\_run_silent_testldltunit.obj
+         Debug\_run_silent_testlegendreunit.obj
+         Debug\_run_silent_testlinminunit.obj
+         Debug\_run_silent_testmatgenunit.obj
+         Debug\_run_silent_testmatinvunit.obj
+         Debug\_run_silent_testmincgunit.obj
+         Debug\_run_silent_testminlbfgsunit.obj
+         Debug\_run_silent_testminlmunit.obj
+         Debug\_run_silent_testmlpeunit.obj
+         Debug\_run_silent_testmlpunit.obj
+         Debug\_run_silent_testnearestneighborunit.obj
+         Debug\_run_silent_testodesolverunit.obj
+         Debug\_run_silent_testortfacunit.obj
+         Debug\_run_silent_testpcaunit.obj
+         Debug\_run_silent_testpolintunit.obj
+         Debug\_run_silent_testratinterpolation.obj
+         Debug\_run_silent_testrcondldltunit.obj
+         Debug\_run_silent_testrcondunit.obj
+         Debug\_run_silent_testreflectionsunit.obj
+         Debug\_run_silent_testregressunit.obj
+         Debug\_run_silent_testsafesolveunit.obj
+         Debug\_run_silent_testsblasunit.obj
+         Debug\_run_silent_testschurunit.obj
+         Debug\_run_silent_testspdgevdunit.obj
+         Debug\_run_silent_testspline1dunit.obj
+         Debug\_run_silent_testspline2dunit.obj
+         Debug\_run_silent_testsstunit.obj
+         Debug\_run_silent_testsvdunit.obj
+         Debug\_run_silent_testtrfacunit.obj
+         Debug\_run_silent_testtsortunit.obj
+         Debug\_run_silent_testxblasunit.obj
+         Debug\_run_testablasunit.obj
+         Debug\_run_testasa.obj
+         Debug\_run_testautogk.obj
+         Debug\_run_testbdssunit.obj
+         Debug\_run_testbdsvdunit.obj
+         Debug\_run_testblasunit.obj
+         Debug\_run_testchebyshevunit.obj
+         Debug\_run_testconvunit.obj
+         Debug\_run_testcorrunit.obj
+         Debug\_run_testcreflunit.obj
+         Debug\_run_testdensesolverunit.obj
+         Debug\_run_testevdunit.obj
+         Debug\_run_testfftunit.obj
+         Debug\_run_testfhtunit.obj
+         Debug\_run_testforestunit.obj
+         Debug\_run_testgammaunit.obj
+         Debug\_run_testgkq.obj
+         Debug\_run_testgq.obj
+         Debug\_run_testhblasunit.obj
+         Debug\_run_testhermiteunit.obj
+         Debug\_run_testhqrndunit.obj
+         Debug\_run_testidwunit.obj
+         Debug\_run_testinverseupdateunit.obj
+         Debug\_run_testinvldltunit.obj
+         Debug\_run_testkmeansunit.obj
+         Debug\_run_testlaguerreunit.obj
+         Debug\_run_testldaunit.obj
+         Debug\_run_testldltunit.obj
+         Debug\_run_testlegendreunit.obj
+         Debug\_run_testlinminunit.obj
+         Debug\_run_testmatgenunit.obj
+         Debug\_run_testmatinvunit.obj
+         Debug\_run_testmincgunit.obj
+         Debug\_run_testminlbfgsunit.obj
+         Debug\_run_testminlmunit.obj
+         Debug\_run_testmlpeunit.obj
+         Debug\_run_testmlpunit.obj
+         Debug\_run_testnearestneighborunit.obj
+         Debug\_run_testodesolverunit.obj
+         Debug\_run_testortfacunit.obj
+         Debug\_run_testpcaunit.obj
+         Debug\_run_testpolintunit.obj
+         Debug\_run_testratinterpolation.obj
+         Debug\_run_testrcondldltunit.obj
+         Debug\_run_testrcondunit.obj
+         Debug\_run_testreflectionsunit.obj
+         Debug\_run_testregressunit.obj
+         Debug\_run_testsafesolveunit.obj
+         Debug\_run_testsblasunit.obj
+         Debug\_run_testschurunit.obj
+         Debug\_run_testspdgevdunit.obj
+         Debug\_run_testspline1dunit.obj
+         Debug\_run_testspline2dunit.obj
+         Debug\_run_testsstunit.obj
+         Debug\_run_testsvdunit.obj
+         Debug\_run_testtrfacunit.obj
+         Debug\_run_testtsortunit.obj
+         Debug\_run_testxblasunit.obj
+         Debug\ablas.obj
+         Debug\ablasf.obj
+         Debug\airyf.obj
+         Debug\ap.obj
+         Debug\autogk.obj
+         Debug\bdss.obj
+         Debug\bdsvd.obj
+         Debug\bessel.obj
+         Debug\betaf.obj
+         Debug\binomialdistr.obj
+         Debug\blas.obj
+         Debug\chebyshev.obj
+         Debug\chisquaredistr.obj
+         Debug\conv.obj
+         Debug\corr.obj
+         Debug\correlation.obj
+         Debug\correlationtests.obj
+         Debug\creflections.obj
+         Debug\dawson.obj
+         Debug\densesolver.obj
+         Debug\descriptivestatistics.obj
+         Debug\dforest.obj
+         Debug\elliptic.obj
+         Debug\estnorm.obj
+         Debug\evd.obj
+         Debug\expintegrals.obj
+         Debug\fdistr.obj
+         Debug\fft.obj
+         Debug\fht.obj
+         Debug\fresnel.obj
+         Debug\ftbase.obj
+         Debug\gammafunc.obj
+         Debug\gkq.obj
+         Debug\gq.obj
+         Debug\hblas.obj
+         Debug\hermite.obj
+         Debug\hqrnd.obj
+         Debug\hsschur.obj
+         Debug\ialglib.obj
+         Debug\ibetaf.obj
+         Debug\idwint.obj
+         Debug\igammaf.obj
+         Debug\inverseupdate.obj
+         Debug\jacobianelliptic.obj
+         Debug\jarquebera.obj
+         Debug\kmeans.obj
+         Debug\laguerre.obj
+         Debug\lda.obj
+         Debug\ldlt.obj
+         Debug\legendre.obj
+         Debug\linmin.obj
+         Debug\linreg.obj
+         Debug\llstestunit.obj
+         Debug\logit.obj
+         Debug\lsfit.obj
+         Debug\mannwhitneyu.obj
+         Debug\matdet.obj
+         Debug\matgen.obj
+         Debug\matinv.obj
+         Debug\minasa.obj
+         Debug\mincg.obj
+         Debug\minlbfgs.obj
+         Debug\minlm.obj
+         Debug\mlpbase.obj
+         Debug\mlpe.obj
+         Debug\mlptrain.obj
+         Debug\nearestneighbor.obj
+         Debug\nearunityunit.obj
+         Debug\normaldistr.obj
+         Debug\odesolver.obj
+         Debug\ortfac.obj
+         Debug\pca.obj
+         Debug\poissondistr.obj
+         Debug\polint.obj
+         Debug\psif.obj
+         Debug\ratint.obj
+         Debug\ratinterpolation.obj
+         Debug\rcond.obj
+         Debug\reflections.obj
+         Debug\rotations.obj
+         Debug\safesolve.obj
+         Debug\sblas.obj
+         Debug\schur.obj
+         Debug\sdet.obj
+         Debug\sinverse.obj
+         Debug\spdgevd.obj
+         Debug\spline1d.obj
+         Debug\spline2d.obj
+         Debug\spline3.obj
+         Debug\srcond.obj
+         Debug\ssolve.obj
+         Debug\stest.obj
+         Debug\studenttdistr.obj
+         Debug\studentttests.obj
+         Debug\svd.obj
+         Debug\taskgen.obj
+         Debug\testablasunit.obj
+         Debug\testasa.obj
+         Debug\testautogk.obj
+         Debug\testbdssunit.obj
+         Debug\testbdsvdunit.obj
+         Debug\testblasunit.obj
+         Debug\testchebyshevunit.obj
+         Debug\testconvunit.obj
+         Debug\testcorrunit.obj
+         Debug\testcreflunit.obj
+         Debug\testdensesolverunit.obj
+         Debug\testevdunit.obj
+         Debug\testfftunit.obj
+         Debug\testfhtunit.obj
+         Debug\testforestunit.obj
+         Debug\testgammaunit.obj
+         Debug\testgkq.obj
+         Debug\testgq.obj
+         Debug\testhblasunit.obj
+         Debug\testhermiteunit.obj
+         Debug\testhqrndunit.obj
+         Debug\testidwunit.obj
+         Debug\testinverseupdateunit.obj
+         Debug\testinvldltunit.obj
+         Debug\testkmeansunit.obj
+         Debug\testlaguerreunit.obj
+         Debug\testldaunit.obj
+         Debug\testldltunit.obj
+         Debug\testlegendreunit.obj
+         Debug\testlinminunit.obj
+         Debug\testmatgenunit.obj
+         Debug\testmatinvunit.obj
+         Debug\testmincgunit.obj
+         Debug\testminlbfgsunit.obj
+         Debug\testminlmunit.obj
+         Debug\testmlpeunit.obj
+         Debug\testmlpunit.obj
+         Debug\testnearestneighborunit.obj
+         Debug\testodesolverunit.obj
+         Debug\testortfacunit.obj
+         Debug\testpcaunit.obj
+         Debug\testpolintunit.obj
+         Debug\testratinterpolation.obj
+         Debug\testrcondldltunit.obj
+         Debug\testrcondunit.obj
+         Debug\testreflectionsunit.obj
+         Debug\testregressunit.obj
+         Debug\testsafesolveunit.obj
+         Debug\testsblasunit.obj
+         Debug\testschurunit.obj
+         Debug\testspdgevdunit.obj
+         Debug\testspline1dunit.obj
+         Debug\testspline2dunit.obj
+         Debug\testsstunit.obj
+         Debug\testsvdunit.obj
+         Debug\testtrfacunit.obj
+         Debug\testtsortunit.obj
+         Debug\testxblasunit.obj
+         Debug\trfac.obj
+         Debug\trigintegrals.obj
+         Debug\trlinsolve.obj
+         Debug\tsort.obj
+         Debug\variancetests.obj
+         Debug\wsr.obj
+         Debug\xblas.obj
+     1>_demo_autogk_smooth.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_lsfit_linear.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_lsfit_nonlinear.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_lsfit_nonlinear2.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minasa_1.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minasa_2.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_mincg_1.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_mincg_2.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minlbfgs_1.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minlbfgs_2.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minlm_fgh.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minlm_fgj.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minlm_fj.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_minlm_fj2.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_mlp_process.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_mlp_process_cls.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_mlp_randomize.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_mlp_serialize.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_ode_example1.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_ode_example2.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_polint_cheb1.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_polint_cheb2.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_polint_eqdist.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_polint_fit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_polint_gen.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_ratint_fit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_rcond_1.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_spline1d_calc.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_spline1d_cubic.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_spline1d_fit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_spline1d_fitc.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_spline1d_hermite.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_demo_spline1d_linear.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_llstestunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_llstestunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testablasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testasa.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testautogk.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testbdssunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testbdsvdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testchebyshevunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testconvunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testcorrunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testcreflunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testdensesolverunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testevdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testfftunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testfhtunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testforestunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testgammaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testgkq.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testgq.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testhblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testhermiteunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testhqrndunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testidwunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testinverseupdateunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testinvldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testkmeansunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testlaguerreunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testldaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testlegendreunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testlinminunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testmatgenunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testmatinvunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testmincgunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testminlbfgsunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testminlmunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testmlpeunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testmlpunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testnearestneighborunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testodesolverunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testortfacunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testpcaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testpolintunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testratinterpolation.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testrcondldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testrcondunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testreflectionsunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testregressunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testsafesolveunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testsblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testschurunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testspdgevdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testspline1dunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testspline2dunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testsstunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testsvdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testtrfacunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testtsortunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_short_testxblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_llstestunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testablasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testasa.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testautogk.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testbdssunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testbdsvdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testchebyshevunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testconvunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testcorrunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testcreflunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testdensesolverunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testevdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testfftunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testfhtunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testforestunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testgammaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testgkq.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testgq.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testhblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testhermiteunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testhqrndunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testidwunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testinverseupdateunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testinvldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testkmeansunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testlaguerreunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testldaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testlegendreunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testlinminunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testmatgenunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testmatinvunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testmincgunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testminlbfgsunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testminlmunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testmlpeunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testmlpunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testnearestneighborunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testodesolverunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testortfacunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testpcaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testpolintunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testratinterpolation.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testrcondldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testrcondunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testreflectionsunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testregressunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testsafesolveunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testsblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testschurunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testspdgevdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testspline1dunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testspline2dunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testsstunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testsvdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testtrfacunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testtsortunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_silent_testxblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testablasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testasa.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testautogk.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testbdssunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testbdsvdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testchebyshevunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testconvunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testcorrunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testcreflunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testdensesolverunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testevdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testfftunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testfhtunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testforestunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testgammaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testgkq.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testgq.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testhblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testhermiteunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testhqrndunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testidwunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testinverseupdateunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testinvldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testkmeansunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testlaguerreunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testldaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testlegendreunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testlinminunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testmatgenunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testmatinvunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testmincgunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testminlbfgsunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testminlmunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testmlpeunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testmlpunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testnearestneighborunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testodesolverunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testortfacunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testpcaunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testpolintunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testratinterpolation.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testrcondldltunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testrcondunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testreflectionsunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testregressunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testsafesolveunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testsblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testschurunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testspdgevdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testspline1dunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testspline2dunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testsstunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testsvdunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testtrfacunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testtsortunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>_run_testxblasunit.obj : error LNK2005: _main already defined in _demo_autogk_singular.obj
+     1>K:\KL\Debug\Matlib.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "K:\KL\Packages\MatLib\Matlib\Matlib.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:02:27.84

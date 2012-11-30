@@ -1,0 +1,41 @@
+﻿Build started 10/17/2012 10:01:48 AM.
+     1>Project "K:\KL\Packages\MatrixExponential\expokit\expokitcpp\expokitcpp\expokitcpp.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\expokitcpp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (Win32 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /ZI /nologo /W3 /Od /Qftz- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP ..\dgexpv.cpp ..\dgpadm.cpp ..\dsexpv.cpp ..\dspadm.cpp ..\zgexpv.cpp ..\zgpadm.cpp ..\zhexpv.cpp ..\zhpadm.cpp
+         dgexpv.cpp
+         dgpadm.cpp
+         dsexpv.cpp
+         dspadm.cpp
+         zgexpv.cpp
+         zgpadm.cpp
+         zhexpv.cpp
+         zhpadm.cpp
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /ZI /nologo /W3 /Od /Qftz- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC ..\..\..\f2c\pow_ii.c ..\..\..\f2c\s_stop.c
+         pow_ii.c
+         s_stop.c
+       Lib:
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\xilib.exe /OUT:"K:\KL\Debug\expokitcpp.lib" /NOLOGO Debug\dgexpv.obj
+         Debug\dgpadm.obj
+         Debug\dsexpv.obj
+         Debug\dspadm.obj
+         Debug\zgexpv.obj
+         Debug\zgpadm.obj
+         Debug\zhexpv.obj
+         Debug\zhpadm.obj
+         Debug\pow_ii.obj
+         Debug\s_stop.obj
+         xilib: executing 'lib'
+         expokitcpp.vcxproj -> K:\KL\Debug\expokitcpp.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\expokitcpp.unsuccessfulbuild".
+         Touching "Debug\expokitcpp.lastbuildstate".
+     1>Done Building Project "K:\KL\Packages\MatrixExponential\expokit\expokitcpp\expokitcpp\expokitcpp.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65

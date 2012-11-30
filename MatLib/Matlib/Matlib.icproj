@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="Matlib"
+	ProjectGUID="{B2F5B236-8A08-40D9-A4CE-CDA58D3B9620}"
+	VCNestedProjectGUID="{AE8ED8D4-5BB1-47A7-A1CB-A916F0BF7AFD}"
+	VCNestedProjectFileName="Matlib.vcproj"
+	>
+	<Configurations>
+		<Configuration
+			Name="Release|x64"
+			>
+			<Tool
+				Name="CppCmplrTool"
+				InterproceduralOptimization="1"
+				Parallelization="true"
+			/>
+		</Configuration>
+	</Configurations>
+	<Files/>
+</VisualStudioProject>

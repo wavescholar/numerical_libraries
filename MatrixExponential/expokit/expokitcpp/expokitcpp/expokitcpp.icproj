@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="expokitcpp"
+	ProjectGUID="{38E5704F-4A2C-4020-BAED-EE35B3F68C33}"
+	VCNestedProjectGUID="{56BA9F4F-AF87-441B-B41C-93A43AB3A3D3}"
+	VCNestedProjectFileName="expokitcpp.vcproj"
+	>
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="FGG"
+	ProjectGUID="{6DB306E9-83DA-444B-952F-C3FAA0134DCE}"
+	VCNestedProjectGUID="{21FC1601-BEF3-4B8E-B63A-DF05F506320E}"
+	VCNestedProjectFileName="FGG.vcproj"
+	>
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

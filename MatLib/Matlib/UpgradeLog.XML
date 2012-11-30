@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Matlib">
+</Property><Property Name="Solution File" Value="K:\KL\Packages\MatLib\Matlib\Matlib.sln">
+</Property><Property Name="Date" Value="Friday, October 07, 2011">
+</Property><Property Name="Time" Value="14:13:40 PM">
+</Property></Properties><Event ErrorLevel="3" Project="Matlib" Source="Matlib.icproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Matlib" Source="Matlib.icproj" Description="Project file successfully backed up as 'K:\KL\Packages\MatLib\Matlib\Matlib.icproj.120.old'">
+</Event><Event ErrorLevel="0" Project="Matlib" Source="Matlib.icproj" Description="Project upgraded successfully.">
+</Event></UpgradeLog>

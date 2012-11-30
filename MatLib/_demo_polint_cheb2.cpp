@@ -1,0 +1,55 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#include "polint.h"
+
+int main(int argc, char **argv)
+{
+    ap::real_1d_array y;
+    int n;
+    int i;
+    double t;
+    barycentricinterpolant p;
+    double v;
+    double dv;
+    double d2v;
+    double err;
+    double maxerr;
+
+    
+    //
+    // Demonstration
+    //
+    printf("POLYNOMIAL INTERPOLATION\n\n");
+    printf("F(x)=sin(x), [0, pi]\n");
+    printf("Second degree polynomial is used\n\n");
+    
+    //
+    // Create polynomial interpolant
+    //
+    n = 3;
+    y.setlength(n);
+    for(i = 0; i <= n-1; i++)
+    {
+        y(i) = sin(0.5*ap::pi()*(1.0+cos(ap::pi()*i/(n-1))));
+    }
+    polynomialbuildcheb2(double(0), ap::pi(), y, n, p);
+    
+    //
+    // Output results
+    //
+    barycentricdiff2(p, double(0), v, dv, d2v);
+    printf("                 P(x)    F(x) \n");
+    printf("function       %6.3lf  %6.3lf \n",
+        double(barycentriccalc(p, double(0))),
+        double(0));
+    printf("d/dx(0)        %6.3lf  %6.3lf \n",
+        double(dv),
+        double(1));
+    printf("d2/dx2(0)      %6.3lf  %6.3lf \n",
+        double(d2v),
+        double(0));
+    printf("\n\n");
+    return 0;
+}
+

@@ -1,0 +1,34 @@
+﻿Build started 10/17/2012 10:02:36 AM.
+     1>Project "K:\KL\Packages\FastGaussTransform\FGG\FGG.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\FGG.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (Win32 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /Zi /nologo /W3 /O2 /Oi /Qipo /Qftz- /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP ..\GaussTransform.cpp ..\ImprovedFastGaussTransform.cpp ..\ImprovedFastGaussTransformChooseParameters.cpp ..\ImprovedFastGaussTransformChooseTruncationNumber.cpp ..\KCenterClustering.cpp
+         GaussTransform.cpp
+         ImprovedFastGaussTransform.cpp
+         ImprovedFastGaussTransformChooseParameters.cpp
+     1>..\ImprovedFastGaussTransformChooseParameters.cpp(68): warning #177: variable "p" was declared but never referenced
+           	int p=1;
+           	    ^
+         
+         ImprovedFastGaussTransformChooseTruncationNumber.cpp
+         KCenterClustering.cpp
+       Lib:
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\xilib.exe /OUT:"K:\KL\Release\FGG.lib" /NOLOGO Release\GaussTransform.obj
+         Release\ImprovedFastGaussTransform.obj
+         Release\ImprovedFastGaussTransformChooseParameters.obj
+         Release\ImprovedFastGaussTransformChooseTruncationNumber.obj
+         Release\KCenterClustering.obj
+         xilib: executing 'lib'
+         FGG.vcxproj -> K:\KL\Release\FGG.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\FGG.unsuccessfulbuild".
+         Touching "Release\FGG.lastbuildstate".
+     1>Done Building Project "K:\KL\Packages\FastGaussTransform\FGG\FGG.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.05

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{EAF909A5-FA59-4C3D-9431-0FCC20D5BCF9}") = "Matlib", "Matlib.icproj", "{B2F5B236-8A08-40D9-A4CE-CDA58D3B9620}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2F5B236-8A08-40D9-A4CE-CDA58D3B9620}.Debug|x64.ActiveCfg = Debug|x64
+		{B2F5B236-8A08-40D9-A4CE-CDA58D3B9620}.Debug|x64.Build.0 = Debug|x64
+		{B2F5B236-8A08-40D9-A4CE-CDA58D3B9620}.Release|x64.ActiveCfg = Release|x64
+		{B2F5B236-8A08-40D9-A4CE-CDA58D3B9620}.Release|x64.Build.0 = Release|x64
+		{AE8ED8D4-5BB1-47A7-A1CB-A916F0BF7AFD}.Debug|x64.ActiveCfg = Debug|x64
+		{AE8ED8D4-5BB1-47A7-A1CB-A916F0BF7AFD}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

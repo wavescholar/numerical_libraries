@@ -1,0 +1,34 @@
+﻿Build started 10/17/2012 10:02:38 AM.
+     1>Project "K:\KL\Packages\FastGaussTransform\FGG\FGG.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FGG.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (Win32 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /ZI /nologo /W3 /Od /Qftz- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP ..\GaussTransform.cpp ..\ImprovedFastGaussTransform.cpp ..\ImprovedFastGaussTransformChooseParameters.cpp ..\ImprovedFastGaussTransformChooseTruncationNumber.cpp ..\KCenterClustering.cpp
+         GaussTransform.cpp
+         ImprovedFastGaussTransform.cpp
+         ImprovedFastGaussTransformChooseParameters.cpp
+     1>..\ImprovedFastGaussTransformChooseParameters.cpp(68): warning #177: variable "p" was declared but never referenced
+           	int p=1;
+           	    ^
+         
+         ImprovedFastGaussTransformChooseTruncationNumber.cpp
+         KCenterClustering.cpp
+       Lib:
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\ia32\xilib.exe /OUT:"K:\KL\Debug\FGG.lib" /NOLOGO Debug\GaussTransform.obj
+         Debug\ImprovedFastGaussTransform.obj
+         Debug\ImprovedFastGaussTransformChooseParameters.obj
+         Debug\ImprovedFastGaussTransformChooseTruncationNumber.obj
+         Debug\KCenterClustering.obj
+         xilib: executing 'lib'
+         FGG.vcxproj -> K:\KL\Debug\FGG.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\FGG.unsuccessfulbuild".
+         Touching "Debug\FGG.lastbuildstate".
+     1>Done Building Project "K:\KL\Packages\FastGaussTransform\FGG\FGG.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45
