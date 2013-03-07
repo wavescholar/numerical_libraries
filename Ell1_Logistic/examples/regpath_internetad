@@ -1,0 +1,5 @@
+#! /bin/sh
+
+# training
+../src_c/l1_logreg_regpath -r -s exs_internetad_X exs_internetad_b 0.0001 100 path_internetad -v 3
+

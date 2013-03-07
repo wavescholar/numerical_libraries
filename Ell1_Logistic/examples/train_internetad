@@ -1,0 +1,6 @@
+#! /bin/sh
+# command line example for training
+
+../src_c/l1_logreg_train -s exs_internetad_X exs_internetad_b 0.01 model_internetad
+
+

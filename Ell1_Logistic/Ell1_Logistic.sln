@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{EAF909A5-FA59-4C3D-9431-0FCC20D5BCF9}") = "Ell1_Logistic", "Ell1_Logistic.icproj", "{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}"
+EndProject
+Global
+	GlobalSection(IntelOptPkgProperties) = preSolution
+		LoadPackage = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Debug|Win32.ActiveCfg = Release|x64
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Debug|Win32.Build.0 = Release|x64
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Debug|x64.ActiveCfg = Debug|x64
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Debug|x64.Build.0 = Debug|x64
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Release|Win32.ActiveCfg = Release|Win32
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Release|Win32.Build.0 = Release|Win32
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Release|x64.ActiveCfg = Release|x64
+		{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}.Release|x64.Build.0 = Release|x64
+		{12AE96EB-103A-4347-B75E-7E35F00D7B34}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12AE96EB-103A-4347-B75E-7E35F00D7B34}.Debug|Win32.Build.0 = Debug|Win32
+		{12AE96EB-103A-4347-B75E-7E35F00D7B34}.Debug|x64.ActiveCfg = Debug|x64
+		{12AE96EB-103A-4347-B75E-7E35F00D7B34}.Release|Win32.ActiveCfg = Release|Win32
+		{12AE96EB-103A-4347-B75E-7E35F00D7B34}.Release|Win32.Build.0 = Release|Win32
+		{12AE96EB-103A-4347-B75E-7E35F00D7B34}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

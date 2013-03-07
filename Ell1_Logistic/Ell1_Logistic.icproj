@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="Ell1_Logistic"
+	ProjectGUID="{7265AD6D-3F3A-4FEE-8FD4-6D73EF3C6879}"
+	VCNestedProjectGUID="{12AE96EB-103A-4347-B75E-7E35F00D7B34}"
+	VCNestedProjectFileName="Ell1_Logistic.vcproj"
+	>
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

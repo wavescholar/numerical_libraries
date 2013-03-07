@@ -1,0 +1,5 @@
+#! /bin/sh
+# command line example for classification
+
+../src_c/l1_logreg_classify -t exs_internetad_b path_internetad exs_internetad_X result_path_internetad
+

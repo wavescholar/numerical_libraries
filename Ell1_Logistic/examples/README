@@ -1,0 +1,25 @@
+
+EXAMPLES
+
+train_*
+    train_iono          : script for training on ionosphere dataset
+
+classify_*
+    classify_iono       : script for classification over the training 
+                          ionosphere dataset
+
+regpath_*
+    regpath_iono        : script for generating a regularization path of
+                          ionosphere dataset
+
+A train_<problem> script does training over a given dataset (feature matrix mmrx_<problem>_A, class vector mmrx_<problem>_b). Then it generates a model file, out<problem>.
+
+A classify_<problem> script does classification over a test dataset (here, we used the same dataset that is used for training). Classification requres the model file that is generated from training, and generates an result file res<problem> which contains the classification result of the test dataset.
+
+
+OTHER DATASETS
+
+Other data sets of various sizes are availabe online. Please check the official website of l1_logreg.
+
+
+

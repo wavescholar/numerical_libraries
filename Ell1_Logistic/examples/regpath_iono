@@ -1,0 +1,5 @@
+#! /bin/sh
+
+# training
+../src_c/l1_logreg_regpath -r -s exd_iono_X exd_iono_b 0.001 100 path_iono
+

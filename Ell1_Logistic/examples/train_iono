@@ -1,0 +1,5 @@
+#! /bin/sh
+# command line example for training
+
+../src_c/l1_logreg_train -s exd_iono_X exd_iono_b 0.01 model_iono
+

@@ -1,0 +1,5 @@
+#! /bin/sh
+# command line example for classification
+
+../src_c/l1_logreg_classify -t exd_iono_b path_iono exd_iono_X result_path_iono
+
