@@ -16,6 +16,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\..\..\x64\Release\ARPACK2.lib" />
+    <Library Include="..\..\..\..\x64\Debug\ARPACK2.lib" />
   </ItemGroup>
 </Project>
