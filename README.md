@@ -22,6 +22,8 @@ FastGauss
 
 MatLib
 
+BullMoutain Entropy RNG
+
 The solution for these resides in the kl root folder which is not
 in source control.  The individual project files are in the repo.
  
