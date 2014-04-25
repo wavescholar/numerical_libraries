@@ -1,7 +1,0 @@
-        !COMPILER-GENERATED INTERFACE MODULE: Wed Oct 17 10:02:27 2012
-        MODULE SSTATS__genmod
-          INTERFACE 
-            SUBROUTINE SSTATS
-            END SUBROUTINE SSTATS
-          END INTERFACE 
-        END MODULE SSTATS__genmod

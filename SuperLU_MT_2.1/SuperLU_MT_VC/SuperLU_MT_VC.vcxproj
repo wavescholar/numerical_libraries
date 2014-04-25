@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SRC\await.c" />
+    <ClCompile Include="..\SRC\cgscon.c" />
+    <ClCompile Include="..\SRC\cgsequ.c" />
+    <ClCompile Include="..\SRC\cgsrfs.c" />
+    <ClCompile Include="..\SRC\cgstrs.c" />
+    <ClCompile Include="..\SRC\clacon.c" />
+    <ClCompile Include="..\SRC\clangs.c" />
+    <ClCompile Include="..\SRC\claqgs.c" />
+    <ClCompile Include="..\SRC\cmatgen.c" />
+    <ClCompile Include="..\SRC\cmyblas2.c" />
+    <ClCompile Include="..\SRC\colamd.c" />
+    <ClCompile Include="..\SRC\cpivotgrowth.c" />
+    <ClCompile Include="..\SRC\creadhb.c" />
+    <ClCompile Include="..\SRC\creadmt.c" />
+    <ClCompile Include="..\SRC\creadrb.c" />
+    <ClCompile Include="..\SRC\csp_blas2.c" />
+    <ClCompile Include="..\SRC\csp_blas3.c" />
+    <ClCompile Include="..\SRC\dcomplex.c" />
+    <ClCompile Include="..\SRC\dgscon.c" />
+    <ClCompile Include="..\SRC\dgsequ.c" />
+    <ClCompile Include="..\SRC\dgsrfs.c" />
+    <ClCompile Include="..\SRC\dgstrs.c" />
+    <ClCompile Include="..\SRC\dlacon.c" />
+    <ClCompile Include="..\SRC\dlamch.c" />
+    <ClCompile Include="..\SRC\dlangs.c" />
+    <ClCompile Include="..\SRC\dlaqgs.c" />
+    <ClCompile Include="..\SRC\dmatgen.c" />
+    <ClCompile Include="..\SRC\dmyblas2.c" />
+    <ClCompile Include="..\SRC\dpivotgrowth.c" />
+    <ClCompile Include="..\SRC\dreadhb.c" />
+    <ClCompile Include="..\SRC\dreadmt.c" />
+    <ClCompile Include="..\SRC\dreadrb.c" />
+    <ClCompile Include="..\SRC\dsp_blas2.c" />
+    <ClCompile Include="..\SRC\dsp_blas3.c" />
+    <ClCompile Include="..\SRC\dzsum1.c" />
+    <ClCompile Include="..\SRC\getopt.c" />
+    <ClCompile Include="..\SRC\get_perm_c.c" />
+    <ClCompile Include="..\SRC\heap_relax_snode.c" />
+    <ClCompile Include="..\SRC\icmax1.c" />
+    <ClCompile Include="..\SRC\izmax1.c" />
+    <ClCompile Include="..\SRC\lsame.c" />
+    <ClCompile Include="..\SRC\memory_leak.c" />
+    <ClCompile Include="..\SRC\mmd.c" />
+    <ClCompile Include="..\SRC\pcgssv.c" />
+    <ClCompile Include="..\SRC\pcgssvx.c" />
+    <ClCompile Include="..\SRC\pcgstrf.c" />
+    <ClCompile Include="..\SRC\pcgstrf_bmod1D.c" />
+    <ClCompile Include="..\SRC\pcgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\SRC\pcgstrf_bmod2D.c" />
+    <ClCompile Include="..\SRC\pcgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\SRC\pcgstrf_column_bmod.c" />
+    <ClCompile Include="..\SRC\pcgstrf_column_dfs.c" />
+    <ClCompile Include="..\SRC\pcgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\SRC\pcgstrf_factor_snode.c" />
+    <ClCompile Include="..\SRC\pcgstrf_init.c" />
+    <ClCompile Include="..\SRC\pcgstrf_panel_bmod.c" />
+    <ClCompile Include="..\SRC\pcgstrf_panel_dfs.c" />
+    <ClCompile Include="..\SRC\pcgstrf_pivotL.c" />
+    <ClCompile Include="..\SRC\pcgstrf_pruneL.c" />
+    <ClCompile Include="..\SRC\pcgstrf_snode_bmod.c" />
+    <ClCompile Include="..\SRC\pcgstrf_snode_dfs.c" />
+    <ClCompile Include="..\SRC\pcgstrf_thread.c" />
+    <ClCompile Include="..\SRC\pcgstrf_thread_finalize.c" />
+    <ClCompile Include="..\SRC\pcgstrf_thread_init.c" />
+    <ClCompile Include="..\SRC\pcmemory.c" />
+    <ClCompile Include="..\SRC\pcutil.c" />
+    <ClCompile Include="..\SRC\pdgssv.c" />
+    <ClCompile Include="..\SRC\pdgssvx.c" />
+    <ClCompile Include="..\SRC\pdgstrf.c" />
+    <ClCompile Include="..\SRC\pdgstrf_bmod1D.c" />
+    <ClCompile Include="..\SRC\pdgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\SRC\pdgstrf_bmod2D.c" />
+    <ClCompile Include="..\SRC\pdgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\SRC\pdgstrf_column_bmod.c" />
+    <ClCompile Include="..\SRC\pdgstrf_column_dfs.c" />
+    <ClCompile Include="..\SRC\pdgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\SRC\pdgstrf_factor_snode.c" />
+    <ClCompile Include="..\SRC\pdgstrf_init.c" />
+    <ClCompile Include="..\SRC\pdgstrf_panel_bmod.c" />
+    <ClCompile Include="..\SRC\pdgstrf_panel_dfs.c" />
+    <ClCompile Include="..\SRC\pdgstrf_pivotL.c" />
+    <ClCompile Include="..\SRC\pdgstrf_pruneL.c" />
+    <ClCompile Include="..\SRC\pdgstrf_snode_bmod.c" />
+    <ClCompile Include="..\SRC\pdgstrf_snode_dfs.c" />
+    <ClCompile Include="..\SRC\pdgstrf_thread.c" />
+    <ClCompile Include="..\SRC\pdgstrf_thread_finalize.c" />
+    <ClCompile Include="..\SRC\pdgstrf_thread_init.c" />
+    <ClCompile Include="..\SRC\pdmemory.c" />
+    <ClCompile Include="..\SRC\pdutil.c" />
+    <ClCompile Include="..\SRC\pmemory.c" />
+    <ClCompile Include="..\SRC\psgssv.c" />
+    <ClCompile Include="..\SRC\psgssvx.c" />
+    <ClCompile Include="..\SRC\psgstrf.c" />
+    <ClCompile Include="..\SRC\psgstrf_bmod1D.c" />
+    <ClCompile Include="..\SRC\psgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\SRC\psgstrf_bmod2D.c" />
+    <ClCompile Include="..\SRC\psgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\SRC\psgstrf_column_bmod.c" />
+    <ClCompile Include="..\SRC\psgstrf_column_dfs.c" />
+    <ClCompile Include="..\SRC\psgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\SRC\psgstrf_factor_snode.c" />
+    <ClCompile Include="..\SRC\psgstrf_init.c" />
+    <ClCompile Include="..\SRC\psgstrf_panel_bmod.c" />
+    <ClCompile Include="..\SRC\psgstrf_panel_dfs.c" />
+    <ClCompile Include="..\SRC\psgstrf_pivotL.c" />
+    <ClCompile Include="..\SRC\psgstrf_pruneL.c" />
+    <ClCompile Include="..\SRC\psgstrf_snode_bmod.c" />
+    <ClCompile Include="..\SRC\psgstrf_snode_dfs.c" />
+    <ClCompile Include="..\SRC\psgstrf_thread.c" />
+    <ClCompile Include="..\SRC\psgstrf_thread_finalize.c" />
+    <ClCompile Include="..\SRC\psgstrf_thread_init.c" />
+    <ClCompile Include="..\SRC\psmemory.c" />
+    <ClCompile Include="..\SRC\psutil.c" />
+    <ClCompile Include="..\SRC\pxgstrf_finalize.c" />
+    <ClCompile Include="..\SRC\pxgstrf_mark_busy_descends.c" />
+    <ClCompile Include="..\SRC\pxgstrf_pruneL.c" />
+    <ClCompile Include="..\SRC\pxgstrf_relax_snode.c" />
+    <ClCompile Include="..\SRC\pxgstrf_scheduler.c" />
+    <ClCompile Include="..\SRC\pxgstrf_super_bnd_dfs.c" />
+    <ClCompile Include="..\SRC\pxgstrf_synch.c" />
+    <ClCompile Include="..\SRC\pzgssv.c" />
+    <ClCompile Include="..\SRC\pzgssvx.c" />
+    <ClCompile Include="..\SRC\pzgstrf.c" />
+    <ClCompile Include="..\SRC\pzgstrf_bmod1D.c" />
+    <ClCompile Include="..\SRC\pzgstrf_bmod1D_mv2.c" />
+    <ClCompile Include="..\SRC\pzgstrf_bmod2D.c" />
+    <ClCompile Include="..\SRC\pzgstrf_bmod2D_mv2.c" />
+    <ClCompile Include="..\SRC\pzgstrf_column_bmod.c" />
+    <ClCompile Include="..\SRC\pzgstrf_column_dfs.c" />
+    <ClCompile Include="..\SRC\pzgstrf_copy_to_ucol.c" />
+    <ClCompile Include="..\SRC\pzgstrf_factor_snode.c" />
+    <ClCompile Include="..\SRC\pzgstrf_init.c" />
+    <ClCompile Include="..\SRC\pzgstrf_panel_bmod.c" />
+    <ClCompile Include="..\SRC\pzgstrf_panel_dfs.c" />
+    <ClCompile Include="..\SRC\pzgstrf_pivotL.c" />
+    <ClCompile Include="..\SRC\pzgstrf_pruneL.c" />
+    <ClCompile Include="..\SRC\pzgstrf_snode_bmod.c" />
+    <ClCompile Include="..\SRC\pzgstrf_snode_dfs.c" />
+    <ClCompile Include="..\SRC\pzgstrf_thread.c" />
+    <ClCompile Include="..\SRC\pzgstrf_thread_finalize.c" />
+    <ClCompile Include="..\SRC\pzgstrf_thread_init.c" />
+    <ClCompile Include="..\SRC\pzmemory.c" />
+    <ClCompile Include="..\SRC\pzutil.c" />
+    <ClCompile Include="..\SRC\qrnzcnt.c" />
+    <ClCompile Include="..\SRC\scomplex.c" />
+    <ClCompile Include="..\SRC\scsum1.c" />
+    <ClCompile Include="..\SRC\sgscon.c" />
+    <ClCompile Include="..\SRC\sgsequ.c" />
+    <ClCompile Include="..\SRC\sgsrfs.c" />
+    <ClCompile Include="..\SRC\sgstrs.c" />
+    <ClCompile Include="..\SRC\slacon.c" />
+    <ClCompile Include="..\SRC\slamch.c" />
+    <ClCompile Include="..\SRC\slangs.c" />
+    <ClCompile Include="..\SRC\slaqgs.c" />
+    <ClCompile Include="..\SRC\smatgen.c" />
+    <ClCompile Include="..\SRC\smyblas2.c" />
+    <ClCompile Include="..\SRC\spivotgrowth.c" />
+    <ClCompile Include="..\SRC\sp_coletree.c" />
+    <ClCompile Include="..\SRC\sp_colorder.c" />
+    <ClCompile Include="..\SRC\sp_ienv.c" />
+    <ClCompile Include="..\SRC\sreadhb.c" />
+    <ClCompile Include="..\SRC\sreadmt.c" />
+    <ClCompile Include="..\SRC\sreadrb.c" />
+    <ClCompile Include="..\SRC\ssp_blas2.c" />
+    <ClCompile Include="..\SRC\ssp_blas3.c" />
+    <ClCompile Include="..\SRC\superlu_timer.c" />
+    <ClCompile Include="..\SRC\util.c" />
+    <ClCompile Include="..\SRC\xerbla.c" />
+    <ClCompile Include="..\SRC\zgscon.c" />
+    <ClCompile Include="..\SRC\zgsequ.c" />
+    <ClCompile Include="..\SRC\zgsrfs.c" />
+    <ClCompile Include="..\SRC\zgstrs.c" />
+    <ClCompile Include="..\SRC\zlacon.c" />
+    <ClCompile Include="..\SRC\zlangs.c" />
+    <ClCompile Include="..\SRC\zlaqgs.c" />
+    <ClCompile Include="..\SRC\zmatgen.c" />
+    <ClCompile Include="..\SRC\zmyblas2.c" />
+    <ClCompile Include="..\SRC\zpivotgrowth.c" />
+    <ClCompile Include="..\SRC\zreadhb.c" />
+    <ClCompile Include="..\SRC\zreadmt.c" />
+    <ClCompile Include="..\SRC\zreadrb.c" />
+    <ClCompile Include="..\SRC\zsp_blas2.c" />
+    <ClCompile Include="..\SRC\zsp_blas3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SRC\colamd.h" />
+    <ClInclude Include="..\SRC\getopt.h" />
+    <ClInclude Include="..\SRC\pcsp_defs.h" />
+    <ClInclude Include="..\SRC\pdsp_defs.h" />
+    <ClInclude Include="..\SRC\pssp_defs.h" />
+    <ClInclude Include="..\SRC\pxgstrf_synch.h" />
+    <ClInclude Include="..\SRC\pzsp_defs.h" />
+    <ClInclude Include="..\SRC\slu_dcomplex.h" />
+    <ClInclude Include="..\SRC\slu_mt_Cnames.h" />
+    <ClInclude Include="..\SRC\slu_mt_machines.h" />
+    <ClInclude Include="..\SRC\slu_mt_util.h" />
+    <ClInclude Include="..\SRC\slu_scomplex.h" />
+    <ClInclude Include="..\SRC\supermatrix.h" />
+    <ClInclude Include="..\SRC\tailor.h" />
+    <ClInclude Include="..\SRC\types.h" />
+    <ClInclude Include="..\SRC\unistd.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF7E5F63-6DF7-41D4-B08D-91777E9E9CF9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SuperLU_MT_VC</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN64;__OPENMP;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WIN64;__OPENMP;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

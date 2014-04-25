@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="libsdpa"
+	ProjectGUID="{0C59C05B-0416-4009-AA28-984FE18D25EA}"
+	VCNestedProjectGUID="{EEBEBC9B-A88A-45B0-9234-6DC2F5FDD226}"
+	VCNestedProjectFileName="libsdpa.vcproj"
+	>
+	<Configurations>
+		<Configuration
+			Name="Release|x64"
+			>
+			<Tool
+				Name="CppCmplrTool"
+				Parallelization="true"
+			/>
+		</Configuration>
+	</Configurations>
+	<Files/>
+</VisualStudioProject>

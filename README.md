@@ -27,7 +27,7 @@ BullMoutain Entropy RNG
 The solution for these resides in the kl root folder which is not
 in source control.  The individual project files are in the repo.
 
-The directory structure of these libraries is suboptimal.  The packages were added during an organic evolution of one of my projects a long time ago and I’ve never revisited the location of some of the libraries.  For instance Arpack is located here;  ConvexOptimization / SDPA_INTEL_BLAS / arpack++ / ARPACK.  SDPA is a convex solver.  Arpack obviously; is not. 
+The directory structure of Arpack libraries is suboptimal. ARPACK2 contains the Visual Studio Project files, arpack++\ARPACK contains the Fortran code. The C++ interface for Arpack is in arpack++\include.  Note that Arpack++ uses SuperLU and UMFPACK in the sparse examples. 
 
 \section{ARPACK}
 ARPACK++ is an object-oriented version of the Fortran ARPACK package. ARPACK is designed to compute a few eigenvalues and eigenvectors of large scale sparse matrices and pencils via the Arnoldi process for finding eigenvalues called. These methods utilize Krylov Subspace Projections for iterative solution that avoids matrix multiplication.  ARPACK implements the implicit restarted Arnoldi method which reduces the storage requirements of the traditional Lanczos iteration for Hermitian matrices and Arnoldi iteration for general matrices.  The key to the Krylov method is to calculate the linear subspace of $\Real^{(n,n)}$ induced by span of the first m powers of the image of $b$ under a linear operator $A$, $\kappa_m(A,b) | A \in \mathbb R^{(n,n)}

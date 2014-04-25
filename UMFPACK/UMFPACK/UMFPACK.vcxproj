@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{30B5D694-7637-42C3-AC55-4B960450A442}</ProjectGuid>
+    <RootNamespace>UMFPACK</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+    <InterproceduralOptimization>true</InterproceduralOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+    <InterproceduralOptimization>true</InterproceduralOptimization>
+    <UseIntelTBB>true</UseIntelTBB>
+    <UseIntelMKL>
+    </UseIntelMKL>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+    <UseIntelTBB>true</UseIntelTBB>
+    <UseIntelMKL>
+    </UseIntelMKL>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\KL\Packages\ConvexOptimization\SuiteSparse-3.4.0\SuiteSparse\UFconfig;C:\KL\Packages\ConvexOptimization\SuiteSparse-3.4.0\SuiteSparse\UMFPACK\Include;C:\KL\Packages\ConvexOptimization\SuiteSparse-3.4.0\SuiteSparse\AMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\Packages\SuiteSparse\UFconfig;D:\Packages\SuiteSparse\UMFPACK\Include;D:\Packages\SuiteSparse\AMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN64;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\KL\Packages\ConvexOptimization\SuiteSparse-3.4.0\SuiteSparse\UMFPACK\Include;C:\KL\Packages\ConvexOptimization\SuiteSparse-3.4.0\SuiteSparse\UFconfig;C:\KL\Packages\ConvexOptimization\SuiteSparse-3.4.0\SuiteSparse\AMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>d:\Packages\SuiteSparse\UMFPACK\Include;d:\Packages\SuiteSparse\UFconfig;d:\Packages\SuiteSparse\AMD\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
+      <Parallelization>true</Parallelization>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\cholmod_blas.h" />
+    <ClInclude Include="..\Source\umf_2by2.h" />
+    <ClInclude Include="..\Source\umf_analyze.h" />
+    <ClInclude Include="..\Source\umf_apply_order.h" />
+    <ClInclude Include="..\Source\umf_assemble.h" />
+    <ClInclude Include="..\Source\umf_blas3_update.h" />
+    <ClInclude Include="..\Source\umf_build_tuples.h" />
+    <ClInclude Include="..\Source\umf_colamd.h" />
+    <ClInclude Include="..\Source\umf_config.h" />
+    <ClInclude Include="..\Source\umf_create_element.h" />
+    <ClInclude Include="..\Source\umf_dump.h" />
+    <ClInclude Include="..\Source\umf_extend_front.h" />
+    <ClInclude Include="..\Source\umf_free.h" />
+    <ClInclude Include="..\Source\umf_fsize.h" />
+    <ClInclude Include="..\Source\umf_garbage_collection.h" />
+    <ClInclude Include="..\Source\umf_get_memory.h" />
+    <ClInclude Include="..\Source\umf_grow_front.h" />
+    <ClInclude Include="..\Source\umf_init_front.h" />
+    <ClInclude Include="..\Source\umf_internal.h" />
+    <ClInclude Include="..\Source\umf_is_permutation.h" />
+    <ClInclude Include="..\Source\umf_kernel.h" />
+    <ClInclude Include="..\Source\umf_kernel_init.h" />
+    <ClInclude Include="..\Source\umf_kernel_wrapup.h" />
+    <ClInclude Include="..\Source\umf_local_search.h" />
+    <ClInclude Include="..\Source\umf_lsolve.h" />
+    <ClInclude Include="..\Source\umf_ltsolve.h" />
+    <ClInclude Include="..\Source\umf_malloc.h" />
+    <ClInclude Include="..\Source\umf_mem_alloc_element.h" />
+    <ClInclude Include="..\Source\umf_mem_alloc_head_block.h" />
+    <ClInclude Include="..\Source\umf_mem_alloc_tail_block.h" />
+    <ClInclude Include="..\Source\umf_mem_free_tail_block.h" />
+    <ClInclude Include="..\Source\umf_mem_init_memoryspace.h" />
+    <ClInclude Include="..\Source\umf_realloc.h" />
+    <ClInclude Include="..\Source\umf_report_perm.h" />
+    <ClInclude Include="..\Source\umf_report_vector.h" />
+    <ClInclude Include="..\Source\umf_row_search.h" />
+    <ClInclude Include="..\Source\umf_scale.h" />
+    <ClInclude Include="..\Source\umf_scale_column.h" />
+    <ClInclude Include="..\Source\umf_set_stats.h" />
+    <ClInclude Include="..\Source\umf_singletons.h" />
+    <ClInclude Include="..\Source\umf_solve.h" />
+    <ClInclude Include="..\Source\umf_start_front.h" />
+    <ClInclude Include="..\Source\umf_store_lu.h" />
+    <ClInclude Include="..\Source\umf_symbolic_usage.h" />
+    <ClInclude Include="..\Source\umf_transpose.h" />
+    <ClInclude Include="..\Source\umf_triplet.h" />
+    <ClInclude Include="..\Source\umf_tuple_lengths.h" />
+    <ClInclude Include="..\Source\umf_usolve.h" />
+    <ClInclude Include="..\Source\umf_utsolve.h" />
+    <ClInclude Include="..\Source\umf_valid_numeric.h" />
+    <ClInclude Include="..\Source\umf_valid_symbolic.h" />
+    <ClInclude Include="..\Source\umf_version.h" />
+    <ClInclude Include="..\Include\umfpack.h" />
+    <ClInclude Include="..\Include\umfpack_col_to_triplet.h" />
+    <ClInclude Include="..\Include\umfpack_defaults.h" />
+    <ClInclude Include="..\Include\umfpack_free_numeric.h" />
+    <ClInclude Include="..\Include\umfpack_free_symbolic.h" />
+    <ClInclude Include="..\Include\umfpack_get_determinant.h" />
+    <ClInclude Include="..\Include\umfpack_get_lunz.h" />
+    <ClInclude Include="..\Include\umfpack_get_numeric.h" />
+    <ClInclude Include="..\Include\umfpack_get_symbolic.h" />
+    <ClInclude Include="..\Include\umfpack_global.h" />
+    <ClInclude Include="..\Include\umfpack_load_numeric.h" />
+    <ClInclude Include="..\Include\umfpack_load_symbolic.h" />
+    <ClInclude Include="..\Include\umfpack_numeric.h" />
+    <ClInclude Include="..\Include\umfpack_qsymbolic.h" />
+    <ClInclude Include="..\Include\umfpack_report_control.h" />
+    <ClInclude Include="..\Include\umfpack_report_info.h" />
+    <ClInclude Include="..\Include\umfpack_report_matrix.h" />
+    <ClInclude Include="..\Include\umfpack_report_numeric.h" />
+    <ClInclude Include="..\Include\umfpack_report_perm.h" />
+    <ClInclude Include="..\Include\umfpack_report_status.h" />
+    <ClInclude Include="..\Include\umfpack_report_symbolic.h" />
+    <ClInclude Include="..\Include\umfpack_report_triplet.h" />
+    <ClInclude Include="..\Include\umfpack_report_vector.h" />
+    <ClInclude Include="..\Include\umfpack_save_numeric.h" />
+    <ClInclude Include="..\Include\umfpack_save_symbolic.h" />
+    <ClInclude Include="..\Include\umfpack_scale.h" />
+    <ClInclude Include="..\Include\umfpack_solve.h" />
+    <ClInclude Include="..\Include\umfpack_symbolic.h" />
+    <ClInclude Include="..\Include\umfpack_tictoc.h" />
+    <ClInclude Include="..\Include\umfpack_timer.h" />
+    <ClInclude Include="..\Include\umfpack_transpose.h" />
+    <ClInclude Include="..\Include\umfpack_triplet_to_col.h" />
+    <ClInclude Include="..\Include\umfpack_wsolve.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\umf_2by2.c" />
+    <ClCompile Include="..\Source\umf_analyze.c" />
+    <ClCompile Include="..\Source\umf_apply_order.c" />
+    <ClCompile Include="..\Source\umf_assemble.c" />
+    <ClCompile Include="..\Source\umf_blas3_update.c" />
+    <ClCompile Include="..\Source\umf_build_tuples.c" />
+    <ClCompile Include="..\Source\umf_colamd.c" />
+    <ClCompile Include="..\Source\umf_create_element.c" />
+    <ClCompile Include="..\Source\umf_dump.c" />
+    <ClCompile Include="..\Source\umf_extend_front.c" />
+    <ClCompile Include="..\Source\umf_free.c" />
+    <ClCompile Include="..\Source\umf_fsize.c" />
+    <ClCompile Include="..\Source\umf_garbage_collection.c" />
+    <ClCompile Include="..\Source\umf_get_memory.c" />
+    <ClCompile Include="..\Source\umf_grow_front.c" />
+    <ClCompile Include="..\Source\umf_init_front.c" />
+    <ClCompile Include="..\Source\umf_is_permutation.c" />
+    <ClCompile Include="..\Source\umf_kernel.c" />
+    <ClCompile Include="..\Source\umf_kernel_init.c" />
+    <ClCompile Include="..\Source\umf_kernel_wrapup.c" />
+    <ClCompile Include="..\Source\umf_local_search.c" />
+    <ClCompile Include="..\Source\umf_lsolve.c" />
+    <ClCompile Include="..\Source\umf_ltsolve.c" />
+    <ClCompile Include="..\Source\umf_malloc.c" />
+    <ClCompile Include="..\Source\umf_mem_alloc_element.c" />
+    <ClCompile Include="..\Source\umf_mem_alloc_head_block.c" />
+    <ClCompile Include="..\Source\umf_mem_alloc_tail_block.c" />
+    <ClCompile Include="..\Source\umf_mem_free_tail_block.c" />
+    <ClCompile Include="..\Source\umf_mem_init_memoryspace.c" />
+    <ClCompile Include="..\Source\umf_multicompile.c" />
+    <ClCompile Include="..\Source\umf_realloc.c" />
+    <ClCompile Include="..\Source\umf_report_perm.c" />
+    <ClCompile Include="..\Source\umf_report_vector.c" />
+    <ClCompile Include="..\Source\umf_row_search.c" />
+    <ClCompile Include="..\Source\umf_scale.c" />
+    <ClCompile Include="..\Source\umf_scale_column.c" />
+    <ClCompile Include="..\Source\umf_set_stats.c" />
+    <ClCompile Include="..\Source\umf_singletons.c" />
+    <ClCompile Include="..\Source\umf_solve.c" />
+    <ClCompile Include="..\Source\umf_start_front.c" />
+    <ClCompile Include="..\Source\umf_store_lu.c" />
+    <ClCompile Include="..\Source\umf_symbolic_usage.c" />
+    <ClCompile Include="..\Source\umf_transpose.c" />
+    <ClCompile Include="..\Source\umf_triplet.c" />
+    <ClCompile Include="..\Source\umf_tuple_lengths.c" />
+    <ClCompile Include="..\Source\umf_usolve.c" />
+    <ClCompile Include="..\Source\umf_utsolve.c" />
+    <ClCompile Include="..\Source\umf_valid_numeric.c" />
+    <ClCompile Include="..\Source\umf_valid_symbolic.c" />
+    <ClCompile Include="..\Source\umfpack_col_to_triplet.c" />
+    <ClCompile Include="..\Source\umfpack_defaults.c" />
+    <ClCompile Include="..\Source\umfpack_free_numeric.c" />
+    <ClCompile Include="..\Source\umfpack_free_symbolic.c" />
+    <ClCompile Include="..\Source\umfpack_get_determinant.c" />
+    <ClCompile Include="..\Source\umfpack_get_lunz.c" />
+    <ClCompile Include="..\Source\umfpack_get_numeric.c" />
+    <ClCompile Include="..\Source\umfpack_get_symbolic.c" />
+    <ClCompile Include="..\Source\umfpack_global.c" />
+    <ClCompile Include="..\Source\umfpack_load_numeric.c" />
+    <ClCompile Include="..\Source\umfpack_load_symbolic.c" />
+    <ClCompile Include="..\Source\umfpack_numeric.c" />
+    <ClCompile Include="..\Source\umfpack_qsymbolic.c" />
+    <ClCompile Include="..\Source\umfpack_report_control.c" />
+    <ClCompile Include="..\Source\umfpack_report_info.c" />
+    <ClCompile Include="..\Source\umfpack_report_matrix.c" />
+    <ClCompile Include="..\Source\umfpack_report_numeric.c" />
+    <ClCompile Include="..\Source\umfpack_report_perm.c" />
+    <ClCompile Include="..\Source\umfpack_report_status.c" />
+    <ClCompile Include="..\Source\umfpack_report_symbolic.c" />
+    <ClCompile Include="..\Source\umfpack_report_triplet.c" />
+    <ClCompile Include="..\Source\umfpack_report_vector.c" />
+    <ClCompile Include="..\Source\umfpack_save_numeric.c" />
+    <ClCompile Include="..\Source\umfpack_save_symbolic.c" />
+    <ClCompile Include="..\Source\umfpack_scale.c" />
+    <ClCompile Include="..\Source\umfpack_solve.c" />
+    <ClCompile Include="..\Source\umfpack_symbolic.c" />
+    <ClCompile Include="..\Source\umfpack_tictoc.c" />
+    <ClCompile Include="..\Source\umfpack_timer.c" />
+    <ClCompile Include="..\Source\umfpack_transpose.c" />
+    <ClCompile Include="..\Source\umfpack_triplet_to_col.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

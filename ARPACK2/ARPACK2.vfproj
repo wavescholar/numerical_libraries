@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{869F29EE-FD85-431C-BB8B-63550B323BB9}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" F77RuntimeCompatibility="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64" OutputDirectory="$(SolutionDir)$(PlatformName)\$(ConfigurationName)" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" FavorSizeOrSpeed="favorSpeed" Interfaces="true" RuntimeLibrary="rtMultiThreadedDebugDLL" UsePortlib="true" UseMkl="mklSequential"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="$(SolutionDir)$(PlatformName)\$(ConfigurationName)" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" RuntimeLibrary="rtMultiThreadedDLL" UseMkl="mklSequential"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="IVOUT">
+		<File RelativePath="..\arpack++\ARPACK\UTIL\cmout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\cvout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\dmout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\dvout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\icnteq.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\icopy.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\iset.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\iswap.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\ivout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\second.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\smout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\svout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\zmout.f"/>
+		<File RelativePath="..\arpack++\ARPACK\UTIL\zvout.f"/></Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl"/>
+		<Filter Name="src">
+		<File RelativePath="..\arpack++\ARPACK\SRC\cgetv0.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cnaitr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cnapps.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cnaup2.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cnaupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cneigh.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cneupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cngets.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\csortc.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\cstatn.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dgetv0.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dlaqrb.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dnaitr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dnapps.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dnaup2.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dnaupc.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dnaupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dnaupe.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dnconv.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dneigh.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dneupc.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dneupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dngets.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsaitr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsapps.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsaup2.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsaupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsconv.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dseigt.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsesrt.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dseupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsgets.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsortc.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dsortr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dstatn.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dstats.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\dstqrb.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sgetv0.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\slaqrb.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\snaitr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\snapps.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\snaup2.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\snaupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\snaupe.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\snconv.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sneigh.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sneupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sngets.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssaitr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssapps.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssaup2.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssaupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssconv.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sseigt.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssesrt.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sseupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssgets.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssortc.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\ssortr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sstatn.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sstats.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\sstqrb.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\zgetv0.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\znaitr.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\znapps.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\znaup2.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\znaupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\zneigh.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\zneupd.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\zngets.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\zsortc.f"/>
+		<File RelativePath="..\arpack++\ARPACK\SRC\zstatn.f"/></Filter></Files>
+	<Globals/></VisualStudioProject>

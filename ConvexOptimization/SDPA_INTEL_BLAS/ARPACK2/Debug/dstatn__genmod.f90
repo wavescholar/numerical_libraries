@@ -1,7 +1,0 @@
-        !COMPILER-GENERATED INTERFACE MODULE: Wed Oct 17 10:02:30 2012
-        MODULE DSTATN__genmod
-          INTERFACE 
-            SUBROUTINE DSTATN
-            END SUBROUTINE DSTATN
-          END INTERFACE 
-        END MODULE DSTATN__genmod
