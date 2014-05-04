@@ -1,0 +1,5 @@
+0.1.1 june 2011
+    Memory leak fix    
+  
+0.1 apr 2011
+    initial release
