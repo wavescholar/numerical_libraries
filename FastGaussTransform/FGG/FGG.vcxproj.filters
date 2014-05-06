@@ -35,10 +35,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\DataAdaptiveImprovedFastGaussTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\GaussTransform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ImprovedFastGaussTransform2.h">
+    <ClInclude Include="..\ImprovedFastGaussTransform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ImprovedFastGaussTransformChooseParameters.h">
@@ -50,7 +53,7 @@
     <ClInclude Include="..\KCenterClustering.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\DataAdaptiveImprovedFastGaussTransform.h">
+    <ClInclude Include="..\kl_fast_gauss_transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

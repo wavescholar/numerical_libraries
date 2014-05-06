@@ -152,10 +152,11 @@
   <ItemGroup>
     <ClInclude Include="..\DataAdaptiveImprovedFastGaussTransform.h" />
     <ClInclude Include="..\GaussTransform.h" />
-    <ClInclude Include="..\ImprovedFastGaussTransform2.h" />
+    <ClInclude Include="..\ImprovedFastGaussTransform.h" />
     <ClInclude Include="..\ImprovedFastGaussTransformChooseParameters.h" />
     <ClInclude Include="..\ImprovedFastGaussTransformChooseTruncationNumber.h" />
     <ClInclude Include="..\KCenterClustering.h" />
+    <ClInclude Include="..\kl_fast_gauss_transform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -54,8 +54,8 @@
 // ------------------------------------------------------------
 
 
-#ifndef IMPROVED_FAST_GAUSS_TRANSFORM_H
-#define IMPROVED_FAST_GAUSS_TRANSFORM_H
+#ifndef IMPROVED_DATA_ADAPTIVE_FAST_GAUSS_TRANSFORM_H
+#define IMPROVED_DATA_ADAPTIVE_FAST_GAUSS_TRANSFORM_H
 
 
 
