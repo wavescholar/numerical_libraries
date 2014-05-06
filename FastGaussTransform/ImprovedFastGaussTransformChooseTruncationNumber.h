@@ -43,7 +43,6 @@
 #define CHOOSE_TRUNC_NUMBER_H
 
 
-
 class ImprovedFastGaussTransformChooseTruncationNumber{
 	public:
 		//constructor 

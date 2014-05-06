@@ -63,8 +63,6 @@
 #ifndef K_CENTER_CLUSTERING_H
 #define K_CENTER_CLUSTERING_H
 
-
-
 class KCenterClustering{
 	public:		
 
@@ -113,10 +111,10 @@ class KCenterClustering{
 		double ddist(const int d, const double *x, const double *y);
 		int idmax(int n, double *x);
 		
-		//MATLAB applications should always call malloc rather than malloc to allocate memory
+		//MATLAB applications should always call mxMalloc rather than malloc to allocate memory
 
-	    //void *operator new[] (size_t s){ return malloc(s);}
-	    //void operator delete[] (void* mem){ free(mem);}
+	    //void *operator new[] (size_t s){ return mxMalloc(s);}
+	    //void operator delete[] (void* mem){ mxFree(mem);}
 		
     
 };

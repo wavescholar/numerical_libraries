@@ -60,7 +60,7 @@ ImprovedFastGaussTransformChooseParameters::ImprovedFastGaussTransformChoosePara
 
 	double h_square=h*h;
 
-	r=min(R,h*sqrt(log(1/eps)));
+	r=min(R,h*sqrt((double)log(1.0f/eps)));
 
 	int p_ul=200; // [Upper limit on the truncation number]I have roughly set this to 200
 

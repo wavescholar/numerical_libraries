@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GaussTransform", "GaussTransform.vcproj", "{511B9F1F-2D3A-4000-9F3A-9F3620EF6BB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{511B9F1F-2D3A-4000-9F3A-9F3620EF6BB8}.Debug.ActiveCfg = Debug|Win32
+		{511B9F1F-2D3A-4000-9F3A-9F3620EF6BB8}.Debug.Build.0 = Debug|Win32
+		{511B9F1F-2D3A-4000-9F3A-9F3620EF6BB8}.Release.ActiveCfg = Release|Win32
+		{511B9F1F-2D3A-4000-9F3A-9F3620EF6BB8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

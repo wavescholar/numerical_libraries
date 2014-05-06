@@ -142,6 +142,7 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\DataAdaptiveImprovedFastGaussTransform.cpp" />
     <ClCompile Include="..\GaussTransform.cpp" />
     <ClCompile Include="..\ImprovedFastGaussTransform.cpp" />
     <ClCompile Include="..\ImprovedFastGaussTransformChooseParameters.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="..\KCenterClustering.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\DataAdaptiveImprovedFastGaussTransform.h" />
     <ClInclude Include="..\GaussTransform.h" />
     <ClInclude Include="..\ImprovedFastGaussTransform2.h" />
     <ClInclude Include="..\ImprovedFastGaussTransformChooseParameters.h" />

@@ -30,6 +30,9 @@
     <ClCompile Include="..\KCenterClustering.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\DataAdaptiveImprovedFastGaussTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\GaussTransform.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\KCenterClustering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataAdaptiveImprovedFastGaussTransform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

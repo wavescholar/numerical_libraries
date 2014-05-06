@@ -28,7 +28,7 @@
 // Date    : July 15 2005
 //-------------------------------------------------------------------
 
-#include "ImprovedFastGaussTransform2.h"
+#include "ImprovedFastGaussTransform.h"
 #include <limits.h>
 #include <math.h>
 #define  min(a,b) (((a)<(b))?(a):(b)) 
@@ -127,7 +127,7 @@ ImprovedFastGaussTransform::~ImprovedFastGaussTransform()
 // Compute the combinatorial number nchoosek.
 //-------------------------------------------------------------------
 
-long long
+int
 ImprovedFastGaussTransform::nchoosek(int n, int k){
 	int n_k = n - k;
 	
@@ -136,7 +136,8 @@ ImprovedFastGaussTransform::nchoosek(int n, int k){
 		k = n_k;
 		n_k = n - k;
 	}
-	long long  nchsk = 1; 
+
+	int  nchsk = 1; 
 	for ( int i = 1; i <= n_k; i++)
 	{
 		nchsk *= (++k);
@@ -145,7 +146,6 @@ ImprovedFastGaussTransform::nchoosek(int n, int k){
 
 	return nchsk;
 }
-
 
 
 

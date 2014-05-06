@@ -1,6 +1,3 @@
-#ifndef __kl_fast_gauss_transform__
-#define __kl_fast_gauss_transform__
-
 #include <math.h>
 #include <time.h>
 #include <stdlib.h>
@@ -48,30 +45,23 @@ public:
 		int p_max = IFGTP.p_max; // maximum truncation number
 		double r = IFGTP.r; //cutoff radius
 
-
-		//BBC 050414
-		int *pClusterIndex = new int[K];
+		int *pClusterIndex = new int[N];
 		for(int i=0;i<N;i++)
 			*(pClusterIndex + i) =0;
 
-		/*int *pClusterIndex = new int[N];
-		for(int i=0;i<N;i++)
-			*(pClusterIndex + i) =0;*/
-
 		KCenterClustering KCC(dim,N,X,pClusterIndex,K);
-		_CrtCheckMemory( );
+
 		double *pClusterCenters = new double[K*dim];
 		double *pClusterRadii = new double[K];
 
 		KCC.Cluster();
 		KCC.ComputeClusterCenters(K, pClusterCenters,pClusterIndex,pClusterRadii);	
 		double rx = KCC.MaxClusterRadius; // maximum radius of the clusters
-		_CrtCheckMemory( );
+
 		// Initially the truncation number was chosen based on an estimate
 		//of the maximum cluster radius. But now since we have already run
 		// the clustering algorithm we know the actual maximum cluster radius.
 		ImprovedFastGaussTransformChooseTruncationNumber IFGTCTN(dim,h,epsilon,rx);
-		_CrtCheckMemory( );
 		p_max = IFGTCTN.p_max;
 
 		double *pWeights = new double[N];
@@ -82,7 +72,6 @@ public:
 		double *pGaussTransform =  results.getMemory();
 
 		ImprovedFastGaussTransform IFGT(dim,N,M,X,h,pWeights,Y,double(p_max),double(K),pClusterIndex,pClusterCenters,pClusterRadii,r,epsilon,pGaussTransform);
-		_CrtCheckMemory( );
 		IFGT.Evaluate();
 
 		delete pClusterIndex;
@@ -94,4 +83,3 @@ public:
 	}
 };
 
-#endif 

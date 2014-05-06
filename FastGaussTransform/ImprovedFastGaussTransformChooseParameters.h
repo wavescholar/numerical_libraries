@@ -41,7 +41,6 @@
 #define IMPROVED_FAST_GAUSS_TRANSFORM_CHOOSE_PARAMETERS_H
 
 
-
 class ImprovedFastGaussTransformChooseParameters{
 	public:
 		//constructor 
@@ -73,10 +72,10 @@ class ImprovedFastGaussTransformChooseParameters{
 
 		int nchoosek(int n, int k);
 
-		//MATLAB applications should always call malloc rather than malloc to allocate memory
+		//MATLAB applications should always call mxMalloc rather than malloc to allocate memory
 
-		//void *operator new[] (size_t s){ return malloc(s);}
-	    //void operator delete[] (void* mem){ free(mem);}
+		//void *operator new[] (size_t s){ return mxMalloc(s);}
+	 //   void operator delete[] (void* mem){ mxFree(mem);}
     
 };
 

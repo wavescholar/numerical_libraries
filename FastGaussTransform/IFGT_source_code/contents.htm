@@ -1,0 +1,182 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>IMPROVED FAST GAUSS TRANSFORM Code</title>
+</head>
+
+<body leftmargin="40">
+
+<HR width="80%" color=#f4dfb3 SIZE=1>
+
+  <P class=MsoNormal 
+  style="MARGIN-BOTTOM: 10px; MARGIN-LEFT: 120px; MARGIN-RIGHT: 120px" 
+  align=center>
+  <font face="MS Reference Sans Serif">IMPROVED FAST GAUSS TRANSFORM </font></P>
+
+<p align="center">
+<b> <font face="MS Reference Sans Serif" size="2">
+Copyright Information </font></b></p>
+
+  <blockquote>
+    <blockquote>
+      <blockquote>
+
+<p align="center">
+<font face="MS Reference Sans Serif" size="1">
+The code was written by Vikas C. Raykar and Changjiang Yang is copyrighted under 
+the Lesser GPL: </font></p>
+
+      </blockquote>
+    </blockquote>
+</blockquote>
+
+  <P class=MsoNormal 
+  style="MARGIN-BOTTOM: 10px; MARGIN-LEFT: 120px; MARGIN-RIGHT: 120px" 
+  align=center><font face="MS Reference Sans Serif" size="1">Copyright (C) 2006 
+  Vikas C. Raykar and Changjiang Yang </font></P>
+
+  <P class=MsoNormal 
+  style="MARGIN-BOTTOM: 10px; MARGIN-LEFT: 120px; MARGIN-RIGHT: 120px" 
+  align=center><font face="MS Reference Sans Serif" size="1">This program is 
+  free software; you can redistribute it and/or modify it under the terms of the 
+  GNU Lesser General Public License as published by the Free Software 
+  Foundation; version 2.1 or later. This program is distributed in the hope that 
+  it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty 
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser 
+  General Public License for more details. You should have received a copy of 
+  the GNU Lesser General Public License along with this program; if not, write 
+  to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 
+  02111-1307, USA.&nbsp; The author may be contacted via email at: vikas (at) 
+  umiacs 
+  (.) umd (.) edu and cyang (at) sarnoff (.) com.</font></P>
+
+  <P class=MsoNormal 
+  style="MARGIN-BOTTOM: 10px; MARGIN-LEFT: 120px; MARGIN-RIGHT: 120px" 
+  align=justify>&nbsp;</P>
+
+<HR width="80%" color=#f4dfb3 SIZE=1>
+
+  <P class=MsoNormal 
+  style="MARGIN-BOTTOM: 10px; MARGIN-LEFT: 120px; MARGIN-RIGHT: 120px" 
+  align=center>
+  <font face="MS Reference Sans Serif" size="2">I have provided separate 
+  programs for parameter selection, space subdivision, and the core IFGT 
+  algorithm.&nbsp; This is because when using the IFGT multiple times with differrent 
+  q the parameter selection and k-center clustering have to be done only once.
+  </font></P>
+
+  <P class=MsoNormal 
+  style="MARGIN-BOTTOM: 10px; MARGIN-LEFT: 120px; MARGIN-RIGHT: 120px" 
+  align=center>
+  &nbsp;</P>
+  <div align="center">
+    <center>
+  <table border="1" style="border-collapse: collapse" bordercolor="#F4DFB3" width="1152" cellpadding="2" height="131">
+    <tr>
+      <td width="1141" align="center" bgcolor="#FCF7EB" height="40" colspan="2">
+  <p align="left"><b><font face="MS Reference Sans Serif" size="2">&nbsp; List 
+  of Core Functions</font></b></td>
+      </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">
+      <a style="text-decoration: none" href="html/ImprovedFastGaussTransformChooseParameters.html">ImprovedFastGaussTransformChooseParameters</a> </font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">Returns the number of clusters K, 
+  the maximum truncation number p_max, and the cutoff radius r. </font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">
+      <a href="html/ImprovedFastGaussTransformChooseTruncationNumber.html" style="text-decoration: none">ImprovedFastGaussTransformChooseTruncationNumber</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">Given the cluster radius, 
+  returns the required truncation number p_max.</font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">
+      <a href="html/KCenterClustering.html" style="text-decoration: none">KCenterClustering</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">
+  Implementation of the farthest point clustering algorithm. This is the O(N logK) version.</font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">
+      <a href="html/ImprovedFastGaussTransform.html" style="text-decoration: none">ImprovedFastGaussTransform</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">Given the space subdivison results and the parameters computes the IFGT.</font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">
+      <a href="html/DataAdaptiveImprovedFastGaussTransform.html" style="text-decoration: none">DataAdaptiveImprovedFastGaussTransform</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">Version of the IFGT where the 
+  truncation number for each source point is different.</font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">
+      <a href="html/IFGT.html" style="text-decoration: none">IFGT</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">A wrapper function which 
+  combines all the above. Just provide the accuracy epsilon.</font></td>
+    </tr>
+    <tr>
+      <td width="1141" align="center" bgcolor="#FCF7EB" height="41" colspan="2">
+  <p align="left"><font face="MS Reference Sans Serif" size="2"><b>&nbsp; 
+  Utilities</b></font></td>
+      </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">
+      <a href="html/GaussTransform.html" style="text-decoration: none">GaussTransform</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">Direct implementation.</font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">
+  <a href="html/example.html" style="text-decoration: none">example</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">Example program to illustrate 
+  the use of the IFGT.</font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">
+  <a href="html/generate_multiple_gaussians.html" style="text-decoration: none">generate_multiple_gaussians</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">Generates N samples in d 
+      dimensions from G gaussians </font></td>
+    </tr>
+    <tr>
+      <td width="392" align="center" bgcolor="#F0FFFF" height="39">
+  <font face="MS Reference Sans Serif" size="2">
+  <a href="html/plot_clusters.html" style="text-decoration: none">plot_clusters</a></font></td>
+      <td width="749" align="left" bgcolor="#F0FFFF" height="39">
+      <font face="MS Reference Sans Serif" size="2">Pretty plot of the results of the 
+      clustering procedure. Plots only for two and three dimensions.</font></td>
+    </tr>
+  </table>
+    </center>
+</div>
+  <P class=MsoNormal 
+  style="MARGIN-BOTTOM: 10px; MARGIN-LEFT: 120px; MARGIN-RIGHT: 120px" 
+  align=justify>&nbsp;</P>
+  <div style="position: absolute; top: 151; left: 40; width: 1216; height: 32">
+    <font face="MS Reference Sans Serif" size="2">&nbsp;</font></div>
+<HR width="80%" color=#f4dfb3 SIZE=1>
+
+  <p align="center"><font size="1" face="MS Reference Sans Serif">
+  <!--webbot bot="Timestamp" S-Type="REGENERATED" S-Format="%m/%d/%Y" startspan -->10/18/2006<!--webbot bot="Timestamp" endspan i-checksum="12625" --></font></p>
+
+</body>
+
+</html>

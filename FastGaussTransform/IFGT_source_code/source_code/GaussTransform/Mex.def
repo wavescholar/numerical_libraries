@@ -1,0 +1,2 @@
+LIBRARY	GaussTransform.dll
+EXPORTS mexFunction          

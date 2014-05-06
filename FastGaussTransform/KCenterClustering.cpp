@@ -186,8 +186,7 @@ KCenterClustering::Cluster()
 		nc = idmax(i,r);
 		nc = far2c[nc];
 		pCenters[i] = nc; //add the ind-th node to the current center.
-		r[i] = dist_C[nc] = 0.0;
-		pci[nc]=i;
+		r[i] = dist_C[nc] = 0.0;pci[nc]=i;
 		far2c[i] = nc;
 		cnext[cprev[nc]] = cnext[nc]; // delete nc
 		cprev[cnext[nc]] = cprev[nc];

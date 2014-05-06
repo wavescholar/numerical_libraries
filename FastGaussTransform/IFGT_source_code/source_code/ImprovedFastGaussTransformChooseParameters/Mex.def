@@ -1,0 +1,2 @@
+LIBRARY	ImprovedFastGaussTransformChooseParameters.dll
+EXPORTS mexFunction          
