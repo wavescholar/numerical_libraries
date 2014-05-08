@@ -22,6 +22,7 @@
     <ProjectGuid>{21FC1601-BEF3-4B8E-B63A-DF05F506320E}</ProjectGuid>
     <RootNamespace>FGG</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <ProjectName>FGT</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
