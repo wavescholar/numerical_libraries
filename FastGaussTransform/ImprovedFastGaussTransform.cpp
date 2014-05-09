@@ -283,21 +283,23 @@ ImprovedFastGaussTransform::compute_C()
 //-------------------------------------------------------------------
 // Actual function to evaluate the Gauss Transform.
 //-------------------------------------------------------------------
-
+#include <cerrno>
+#include <iostream>
+#include <malloc.h>
+#include "windows.h"
 void
 ImprovedFastGaussTransform::Evaluate()
 {
-	
 	compute_C();	
-
+	
 	for(int j=0; j < M; j++)
 	{
 		pG[j]=0.0;	
 
 		int target_base=j*d;	    	
 		
-		for(int k=0; k<K; k++){
-
+		for(int k=0; k<K; k++)
+		{
 			int center_base=k*d;
 
 			double  target_center_distance_square=0.0;
@@ -316,7 +318,5 @@ ImprovedFastGaussTransform::Evaluate()
 			}
 		}
 	}
-	
-
 }
 
