@@ -145,7 +145,9 @@ inline void seupp(bool rvec, char HowMny, double d[], double Z[],
   iselect = new logical[ncv];
   iZ = (Z == NULL) ? &V[1] : Z;
 
-  F77NAME(dseupd)(&irvec, &HowMny, iselect, d, iZ, &ldz, &sigma, &bmat,
+
+  //BBCREVBISIT - dseupd was changed to DSEUPD - something bad in the f2c?
+  F77NAME(DSEUPD)(&irvec, &HowMny, iselect, d, iZ, &ldz, &sigma, &bmat,
                   &n, which, &nev, &tol, resid, &ncv, &V[1], &ldv, &iparam[1],
                   &ipntr[1], &workd[1], &workl[1], &lworkl, &info );
 

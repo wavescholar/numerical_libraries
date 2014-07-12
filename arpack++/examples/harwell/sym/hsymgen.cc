@@ -33,7 +33,7 @@
       Houston, Texas
 */
 
-#include <iostream.h>
+#include <iostream>
 #include "arerror.h"
 #include "arlsmat.h"
 #include "arlgsym.h"

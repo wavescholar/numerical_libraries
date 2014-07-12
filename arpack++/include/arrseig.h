@@ -28,8 +28,9 @@
 
 
 // "New" handler.
-
-void MemoryOverflow() { throw ArpackError(ArpackError::MEMORY_OVERFLOW); }
+//bbc - moved to arpcakcpp_defs
+void MemoryOverflow() ;
+//void MemoryOverflow() { throw ArpackError(ArpackError::MEMORY_OVERFLOW); }
 
 // ARrcStdEig class definition.
 

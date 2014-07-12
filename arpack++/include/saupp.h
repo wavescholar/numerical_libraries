@@ -290,7 +290,8 @@ inline void saupp(int& ido, char bmat, int n, char* which, int nev,
 
 {
 
-  F77NAME(dsaupd)(&ido, &bmat, &n, which, &nev, &tol, resid, &ncv,
+	//bbcrevisit - f2c problem :\packages\arpack++\include\saupp.h(293): error C3861: 'dsaupd': identifier not found
+  F77NAME(DSAUPD)(&ido, &bmat, &n, which, &nev, &tol, resid, &ncv,
                   &V[1], &ldv, &iparam[1], &ipntr[1], &workd[1], &workl[1],
                   &lworkl, &info);
 

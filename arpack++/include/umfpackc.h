@@ -21,7 +21,7 @@
 #define UMFPACKC_H
 
 
-void AfterUm21i(int keep[], int icntl[], bool simest, bool reducible) 
+inline void AfterUm21i(int keep[], int icntl[], bool simest, bool reducible) 
 
 // A function that changes some components of icntl and keep vectors. 
 
@@ -78,6 +78,7 @@ inline void um21i(integer keep[], double cntl[], integer icntl[],
   // Calling the FORTRAN function.
 
   F77NAME(umd21i)(keep, cntl, icntl);
+	//F77NAME(UMD21I)(keep, cntl, icntl);
 
   // Changing cntl vector.
 

@@ -21,7 +21,7 @@
 
 //#ifdef __GNUG__
   
-#define arcomplex complex
+#define arcomplex std::complex
 
 //#endif
 

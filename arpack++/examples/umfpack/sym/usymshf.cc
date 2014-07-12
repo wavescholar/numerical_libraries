@@ -52,7 +52,7 @@
 #include "lsymsol.h"
 
 
-main()
+void real_symmetric_standard_eigenvalue_problem_in_shift_and_invert_mode_using_ARluSymStdEig()
 {
 
   // Defining variables;
@@ -84,4 +84,4 @@ main()
 
   Solution(matrix, dprob);
 
-} // main
+}

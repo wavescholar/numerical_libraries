@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\examples\areig\complex\acompgre.cc" />
+    <ClCompile Include="..\examples\areig\complex\acompgsh.cc" />
+    <ClCompile Include="..\examples\areig\complex\acompreg.cc" />
+    <ClCompile Include="..\examples\areig\complex\acompshf.cc" />
+    <ClCompile Include="..\examples\areig\nonsym\ansymgre.cc" />
+    <ClCompile Include="..\examples\areig\nonsym\ansymgsc.cc" />
+    <ClCompile Include="..\examples\areig\nonsym\ansymgsh.cc" />
+    <ClCompile Include="..\examples\areig\nonsym\ansymreg.cc" />
+    <ClCompile Include="..\examples\areig\nonsym\ansymshf.cc" />
+    <ClCompile Include="..\examples\areig\nonsym\simple.cc" />
+    <ClCompile Include="..\examples\areig\sym\asymgbkl.cc" />
+    <ClCompile Include="..\examples\areig\sym\asymgcay.cc" />
+    <ClCompile Include="..\examples\areig\sym\asymgreg.cc" />
+    <ClCompile Include="..\examples\areig\sym\asymgshf.cc" />
+    <ClCompile Include="..\examples\areig\sym\asymreg.cc" />
+    <ClCompile Include="..\examples\areig\sym\asymshf.cc" />
+    <ClCompile Include="..\examples\band\complex\bcompgre.cc" />
+    <ClCompile Include="..\examples\band\complex\bcompgsh.cc" />
+    <ClCompile Include="..\examples\band\complex\bcompreg.cc" />
+    <ClCompile Include="..\examples\band\complex\bcompshf.cc" />
+    <ClCompile Include="..\examples\band\nonsym\bnsymgre.cc" />
+    <ClCompile Include="..\examples\band\nonsym\bnsymgsc.cc" />
+    <ClCompile Include="..\examples\band\nonsym\bnsymgsh.cc" />
+    <ClCompile Include="..\examples\band\nonsym\bnsymreg.cc" />
+    <ClCompile Include="..\examples\band\nonsym\bnsymshf.cc" />
+    <ClCompile Include="..\examples\band\nonsym\bsvd.cc" />
+    <ClCompile Include="..\examples\band\sym\bsymgbkl.cc" />
+    <ClCompile Include="..\examples\band\sym\bsymgcay.cc" />
+    <ClCompile Include="..\examples\band\sym\bsymgreg.cc" />
+    <ClCompile Include="..\examples\band\sym\bsymgshf.cc" />
+    <ClCompile Include="..\examples\band\sym\bsymreg.cc" />
+    <ClCompile Include="..\examples\band\sym\bsymshf.cc" />
+    <ClCompile Include="..\examples\dense\complex\dcompgre.cc" />
+    <ClCompile Include="..\examples\dense\complex\dcompgsh.cc" />
+    <ClCompile Include="..\examples\dense\complex\dcompreg.cc" />
+    <ClCompile Include="..\examples\dense\complex\dcompshf.cc" />
+    <ClCompile Include="..\examples\dense\nonsym\dnsymgsh.cc" />
+    <ClCompile Include="..\examples\dense\nonsym\dnsymshf.cc" />
+    <ClCompile Include="..\examples\dense\nonsym\dsvd.cc" />
+    <ClCompile Include="..\examples\dense\nonsym\dsvd2.cc" />
+    <ClCompile Include="..\examples\dense\sym\dsymgbkl.cc" />
+    <ClCompile Include="..\examples\dense\sym\dsymgcay.cc" />
+    <ClCompile Include="..\examples\dense\sym\dsymgreg.cc" />
+    <ClCompile Include="..\examples\dense\sym\dsymgshf.cc" />
+    <ClCompile Include="..\examples\dense\sym\dsymreg.cc" />
+    <ClCompile Include="..\examples\dense\sym\dsymshf.cc" />
+    <ClCompile Include="..\examples\harwell\complex\hcompgen.cc" />
+    <ClCompile Include="..\examples\harwell\complex\hcompstd.cc" />
+    <ClCompile Include="..\examples\harwell\nonsym\hnsymgen.cc" />
+    <ClCompile Include="..\examples\harwell\nonsym\hnsymstd.cc" />
+    <ClCompile Include="..\examples\harwell\sym\hsymgen.cc" />
+    <ClCompile Include="..\examples\harwell\sym\hsymstd.cc" />
+    <ClCompile Include="..\examples\product\complex\compgreg.cc" />
+    <ClCompile Include="..\examples\product\complex\compgshf.cc" />
+    <ClCompile Include="..\examples\product\complex\compreg.cc" />
+    <ClCompile Include="..\examples\product\complex\compshf.cc" />
+    <ClCompile Include="..\examples\product\nonsym\nsymgreg.cc" />
+    <ClCompile Include="..\examples\product\nonsym\nsymgsci.cc" />
+    <ClCompile Include="..\examples\product\nonsym\nsymgscr.cc" />
+    <ClCompile Include="..\examples\product\nonsym\nsymgshf.cc" />
+    <ClCompile Include="..\examples\product\nonsym\nsymreg.cc" />
+    <ClCompile Include="..\examples\product\nonsym\nsymshf.cc" />
+    <ClCompile Include="..\examples\product\nonsym\svd.cc" />
+    <ClCompile Include="..\examples\product\simple\symsimp.cc" />
+    <ClCompile Include="..\examples\product\sym\symgbklg.cc" />
+    <ClCompile Include="..\examples\product\sym\symgcayl.cc" />
+    <ClCompile Include="..\examples\product\sym\symgreg.cc" />
+    <ClCompile Include="..\examples\product\sym\symgshft.cc" />
+    <ClCompile Include="..\examples\product\sym\symreg.cc" />
+    <ClCompile Include="..\examples\product\sym\symshft.cc" />
+    <ClCompile Include="..\examples\reverse\complex\rcompgre.cc" />
+    <ClCompile Include="..\examples\reverse\complex\rcompgsh.cc" />
+    <ClCompile Include="..\examples\reverse\complex\rcompreg.cc" />
+    <ClCompile Include="..\examples\reverse\complex\rcompshf.cc" />
+    <ClCompile Include="..\examples\reverse\nonsym\rnsymgre.cc" />
+    <ClCompile Include="..\examples\reverse\nonsym\rnsymgsc.cc" />
+    <ClCompile Include="..\examples\reverse\nonsym\rnsymgsh.cc" />
+    <ClCompile Include="..\examples\reverse\nonsym\rnsymreg.cc" />
+    <ClCompile Include="..\examples\reverse\nonsym\rnsymshf.cc" />
+    <ClCompile Include="..\examples\reverse\nonsym\rsvd.cc" />
+    <ClCompile Include="..\examples\reverse\sym\rsymgbkl.cc" />
+    <ClCompile Include="..\examples\reverse\sym\rsymgcay.cc" />
+    <ClCompile Include="..\examples\reverse\sym\rsymgreg.cc" />
+    <ClCompile Include="..\examples\reverse\sym\rsymgshf.cc" />
+    <ClCompile Include="..\examples\reverse\sym\rsymreg.cc" />
+    <ClCompile Include="..\examples\reverse\sym\rsymshf.cc" />
+    <ClCompile Include="..\examples\superlu\complex\lcompgre.cc" />
+    <ClCompile Include="..\examples\superlu\complex\lcompgsh.cc" />
+    <ClCompile Include="..\examples\superlu\complex\lcompreg.cc" />
+    <ClCompile Include="..\examples\superlu\complex\lcompshf.cc" />
+    <ClCompile Include="..\examples\superlu\nonsym\lnsymgre.cc" />
+    <ClCompile Include="..\examples\superlu\nonsym\lnsymgsc.cc" />
+    <ClCompile Include="..\examples\superlu\nonsym\lnsymgsh.cc" />
+    <ClCompile Include="..\examples\superlu\nonsym\lnsymreg.cc" />
+    <ClCompile Include="..\examples\superlu\nonsym\lnsymshf.cc" />
+    <ClCompile Include="..\examples\superlu\nonsym\lsvd.cc" />
+    <ClCompile Include="..\examples\superlu\nonsym\lsvd2.cc" />
+    <ClCompile Include="..\examples\superlu\sym\lsymgbkl.cc" />
+    <ClCompile Include="..\examples\superlu\sym\lsymgcay.cc" />
+    <ClCompile Include="..\examples\superlu\sym\lsymgreg.cc" />
+    <ClCompile Include="..\examples\superlu\sym\lsymgshf.cc" />
+    <ClCompile Include="..\examples\superlu\sym\lsymreg.cc" />
+    <ClCompile Include="..\examples\superlu\sym\lsymshf.cc" />
+    <ClCompile Include="..\examples\umfpack\complex\ucompgre.cc" />
+    <ClCompile Include="..\examples\umfpack\complex\ucompgsh.cc" />
+    <ClCompile Include="..\examples\umfpack\complex\ucompreg.cc" />
+    <ClCompile Include="..\examples\umfpack\complex\ucompshf.cc" />
+    <ClCompile Include="..\examples\umfpack\nonsym\unsymgre.cc" />
+    <ClCompile Include="..\examples\umfpack\nonsym\unsymgsc.cc" />
+    <ClCompile Include="..\examples\umfpack\nonsym\unsymgsh.cc" />
+    <ClCompile Include="..\examples\umfpack\nonsym\unsymreg.cc" />
+    <ClCompile Include="..\examples\umfpack\nonsym\unsymshf.cc" />
+    <ClCompile Include="..\examples\umfpack\nonsym\usvd.cc" />
+    <ClCompile Include="..\examples\umfpack\sym\usymgbkl.cc" />
+    <ClCompile Include="..\examples\umfpack\sym\usymgcay.cc" />
+    <ClCompile Include="..\examples\umfpack\sym\usymgreg.cc" />
+    <ClCompile Include="..\examples\umfpack\sym\usymgshf.cc" />
+    <ClCompile Include="..\examples\umfpack\sym\usymreg.cc" />
+    <ClCompile Include="..\examples\umfpack\sym\usymshf.cc" />
+    <ClCompile Include="arpackcpp_defs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\arbgcomp.h" />
+    <ClInclude Include="..\include\arbgnsym.h" />
+    <ClInclude Include="..\include\arbgsym.h" />
+    <ClInclude Include="..\include\arbnsmat.h" />
+    <ClInclude Include="..\include\arbnspen.h" />
+    <ClInclude Include="..\include\arbscomp.h" />
+    <ClInclude Include="..\include\arbsmat.h" />
+    <ClInclude Include="..\include\arbsnsym.h" />
+    <ClInclude Include="..\include\arbspen.h" />
+    <ClInclude Include="..\include\arbssym.h" />
+    <ClInclude Include="..\include\arch.h" />
+    <ClInclude Include="..\include\arcomp.h" />
+    <ClInclude Include="..\include\ardfmat.h" />
+    <ClInclude Include="..\include\ardgcomp.h" />
+    <ClInclude Include="..\include\ardgnsym.h" />
+    <ClInclude Include="..\include\ardgsym.h" />
+    <ClInclude Include="..\include\ardnsmat.h" />
+    <ClInclude Include="..\include\ardnspen.h" />
+    <ClInclude Include="..\include\ardscomp.h" />
+    <ClInclude Include="..\include\ardsmat.h" />
+    <ClInclude Include="..\include\ardsnsym.h" />
+    <ClInclude Include="..\include\ardspen.h" />
+    <ClInclude Include="..\include\ardssym.h" />
+    <ClInclude Include="..\include\arerror.h" />
+    <ClInclude Include="..\include\argcomp.h" />
+    <ClInclude Include="..\include\argeig.h" />
+    <ClInclude Include="..\include\argnsym.h" />
+    <ClInclude Include="..\include\argsym.h" />
+    <ClInclude Include="..\include\arhbmat.h" />
+    <ClInclude Include="..\include\arlcomp.h" />
+    <ClInclude Include="..\include\arlgcomp.h" />
+    <ClInclude Include="..\include\arlgnsym.h" />
+    <ClInclude Include="..\include\arlgsym.h" />
+    <ClInclude Include="..\include\arlnames.h" />
+    <ClInclude Include="..\include\arlnsmat.h" />
+    <ClInclude Include="..\include\arlnspen.h" />
+    <ClInclude Include="..\include\arlscomp.h" />
+    <ClInclude Include="..\include\arlsmat.h" />
+    <ClInclude Include="..\include\arlsnsym.h" />
+    <ClInclude Include="..\include\arlspdef.h" />
+    <ClInclude Include="..\include\arlspen.h" />
+    <ClInclude Include="..\include\arlssym.h" />
+    <ClInclude Include="..\include\arlsupm.h" />
+    <ClInclude Include="..\include\arlutil.h" />
+    <ClInclude Include="..\include\armat.h" />
+    <ClInclude Include="..\include\arpackf.h" />
+    <ClInclude Include="..\include\arrgcomp.h" />
+    <ClInclude Include="..\include\arrgeig.h" />
+    <ClInclude Include="..\include\arrgnsym.h" />
+    <ClInclude Include="..\include\arrgsym.h" />
+    <ClInclude Include="..\include\arrscomp.h" />
+    <ClInclude Include="..\include\arrseig.h" />
+    <ClInclude Include="..\include\arrsnsym.h" />
+    <ClInclude Include="..\include\arrssym.h" />
+    <ClInclude Include="..\include\arscomp.h" />
+    <ClInclude Include="..\include\arseig.h" />
+    <ClInclude Include="..\include\arsnsym.h" />
+    <ClInclude Include="..\include\arssym.h" />
+    <ClInclude Include="..\include\arugcomp.h" />
+    <ClInclude Include="..\include\arugnsym.h" />
+    <ClInclude Include="..\include\arugsym.h" />
+    <ClInclude Include="..\include\arunsmat.h" />
+    <ClInclude Include="..\include\arunspen.h" />
+    <ClInclude Include="..\include\aruscomp.h" />
+    <ClInclude Include="..\include\arusmat.h" />
+    <ClInclude Include="..\include\arusnsym.h" />
+    <ClInclude Include="..\include\aruspen.h" />
+    <ClInclude Include="..\include\arussym.h" />
+    <ClInclude Include="..\include\blas1c.h" />
+    <ClInclude Include="..\include\blas1f.h" />
+    <ClInclude Include="..\include\caupp.h" />
+    <ClInclude Include="..\include\ceupp.h" />
+    <ClInclude Include="..\include\debug.h" />
+    <ClInclude Include="..\include\lapackc.h" />
+    <ClInclude Include="..\include\lapackf.h" />
+    <ClInclude Include="..\include\naupp.h" />
+    <ClInclude Include="..\include\neupp.h" />
+    <ClInclude Include="..\include\saupp.h" />
+    <ClInclude Include="..\include\seupp.h" />
+    <ClInclude Include="..\include\superluc.h" />
+    <ClInclude Include="..\include\umfpackc.h" />
+    <ClInclude Include="..\include\umfpackf.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A7CB0DC6-F9EB-4192-A2AA-268AE4419673}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>arpackCPPLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Packages\arpack++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Packages\arpack++\examples\inc;D:\Packages\arpack++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Packages\arpack++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Packages\arpack++\include;D:\Packages\arpack++\examples\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

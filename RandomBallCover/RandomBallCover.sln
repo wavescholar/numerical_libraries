@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomBallCover", "RandomBallCover.vcxproj", "{F8222362-2992-4F39-AE5D-EA5C2889993E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestRandomBallCover", "TestRandomBallCover\TestRandomBallCover.vcxproj", "{8E1533B6-2723-4E12-A71A-28255B5FBB8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gsllib", "..\gsl-1.16\build.vc10\gsllib\gsllib.vcxproj", "{2341E8FD-2ECC-456E-A0DA-40EB9CFD71AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cblaslib", "..\gsl-1.16\build.vc10\cblaslib\cblaslib.vcxproj", "{1E7A6EAB-AD24-44D9-A521-0F97CEF1A06B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8222362-2992-4F39-AE5D-EA5C2889993E}.Debug|x64.ActiveCfg = Debug|x64
+		{F8222362-2992-4F39-AE5D-EA5C2889993E}.Debug|x64.Build.0 = Debug|x64
+		{F8222362-2992-4F39-AE5D-EA5C2889993E}.Release|x64.ActiveCfg = Release|x64
+		{F8222362-2992-4F39-AE5D-EA5C2889993E}.Release|x64.Build.0 = Release|x64
+		{8E1533B6-2723-4E12-A71A-28255B5FBB8B}.Debug|x64.ActiveCfg = Debug|x64
+		{8E1533B6-2723-4E12-A71A-28255B5FBB8B}.Debug|x64.Build.0 = Debug|x64
+		{8E1533B6-2723-4E12-A71A-28255B5FBB8B}.Release|x64.ActiveCfg = Release|x64
+		{8E1533B6-2723-4E12-A71A-28255B5FBB8B}.Release|x64.Build.0 = Release|x64
+		{2341E8FD-2ECC-456E-A0DA-40EB9CFD71AE}.Debug|x64.ActiveCfg = Debug|x64
+		{2341E8FD-2ECC-456E-A0DA-40EB9CFD71AE}.Debug|x64.Build.0 = Debug|x64
+		{2341E8FD-2ECC-456E-A0DA-40EB9CFD71AE}.Release|x64.ActiveCfg = Release|x64
+		{2341E8FD-2ECC-456E-A0DA-40EB9CFD71AE}.Release|x64.Build.0 = Release|x64
+		{1E7A6EAB-AD24-44D9-A521-0F97CEF1A06B}.Debug|x64.ActiveCfg = Debug|x64
+		{1E7A6EAB-AD24-44D9-A521-0F97CEF1A06B}.Debug|x64.Build.0 = Debug|x64
+		{1E7A6EAB-AD24-44D9-A521-0F97CEF1A06B}.Release|x64.ActiveCfg = Release|x64
+		{1E7A6EAB-AD24-44D9-A521-0F97CEF1A06B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

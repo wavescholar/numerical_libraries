@@ -46,7 +46,7 @@
 #include "lsymsol.h"
 
 
-main()
+void solve_a_real_symmetric_standard_eigenvalue_problem_in_regular_mode_using_the_ARluSymStdEig_class()
 {
 
   // Defining variables;

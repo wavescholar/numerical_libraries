@@ -125,11 +125,11 @@ main()
 
   // Solving a single precision problem with n = 100.
 
-#ifndef __SUNPRO_CC
-
-  Test((single)0.0);
-
-#endif
+//#ifndef __SUNPRO_CC
+//
+//  Test((single)0.0);
+//
+//#endif
 
   // Solving a double precision problem with n = 100.
 

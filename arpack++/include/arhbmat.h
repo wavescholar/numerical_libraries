@@ -21,7 +21,7 @@
 #define ARHBMAT_H
 
 #include <stddef.h>
-#include <fstream.h>
+#include <fstream>
 #include <stdlib.h>
 #include <string.h>
 #include "arch.h"

@@ -23,8 +23,7 @@ extern "C"
 {
 
 // debug "common" statement.
-
-  struct { 
+ struct { 
     integer logfil, ndigit, mgetv0;
     integer msaupd, msaup2, msaitr, mseigt, msapps, msgets, mseupd;
     integer mnaupd, mnaup2, mnaitr, mneigt, mnapps, mngets, mneupd;

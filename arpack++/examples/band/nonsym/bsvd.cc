@@ -45,7 +45,7 @@
 #include "arssym.h"
 #include "bnmatrxw.h"
 #include "arbnsmat.h"
-#include "iostream.h"
+#include <iostream>
 #include <math.h>
 
 
