@@ -16,7 +16,7 @@
 #include<gsl/gsl_rng.h>
 #include<gsl/gsl_randist.h>
 #include<gsl/gsl_sort.h>
-#include "kl_ML_helper_fns.h"
+#include "kl_matrix_helper_fns.h"
 
 #include<time.h>
 #include<stdio.h>
