@@ -47,7 +47,7 @@
 #include "lsymsol.h"
 
 
-main()
+void real_symmetric_dense_standard_eigenvalue_problem_in_regular_mode()
 {
 
   // Defining variables;
